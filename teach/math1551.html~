@@ -1,0 +1,1420 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math1551</title>
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <script src="../js/vendor/modernizr.js"></script>
+    <link rel="shortcut icon" href="../tenta.ico" >
+  </head>
+
+  <body>
+      <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="../index.html">Shane Scott </a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li><a href="../index.html">Contact</a></li>
+        </ul>
+        <ul class="left">
+          <li><a href="../researchings.html">Research</a></li>
+        </ul>
+        <ul class="left">
+          <li><a href="../teachings.html">Teaching</a></li>
+        </ul>
+        <ul class="left">
+          <li><a href="../mathings.html">Math!</a></li>
+        </ul>
+        <ul class="left">
+          <li><a href="math1551.html">MATH1551</a></li>
+        </ul>
+      </section>
+    </nav>
+
+<p>
+<center>
+    <div class="row">
+	<h3>Math 1551: Differential Calculus</h3>
+    </div>
+    <div class="row">
+    <h5>  Fall 2015 at  <a href="http://www.gatech.edu"> Georgia Institute of Technology</a>
+    </h5>
+    <h5>
+	    <a href="1551syllabus.pdf">Syllabus</a>
+	</h5>	
+    </div>
+</center>
+</p>
+<hr>
+ <p>
+    <div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Instructor:</h5>		
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+	        Shane Scott
+	        </h5>
+	  </div>
+	</div>
+
+	<div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Email:</h5>
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+		   <script language="JavaScript">
+	              var username = "scottsha";
+	              var hostname = "gatech.edu";
+	              var linktext = username + "@" + hostname ;
+	              document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+	           </script>
+	        </h5>
+	  </div>
+	</div>
+
+	<div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Office:</h5>
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+		<a href="https://www.google.com/maps/place/Department+of+Mathematics/@33.7734736,-84.3964651,17z/data=!4m6!1m3!3m2!1s0x88f5048aebc34fe3:0xb52ad03e3ad8c50f!2sGeorgia+Institute+of+Technology!3m1!1s0x0:0x76384ad84620cdb1">Skiles 252</a>
+	        </h5>
+	  </div>
+	</div>
+
+	<div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Hours:</h5>
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+	        Tues 4-5, Wed 4-5, or by appointment
+	        </h5>
+	  </div>
+	</div>
+	<hr>
+	    <div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Lecture Assistant:</h5>		
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+	        Xiangyu Zhong (James)
+	        </h5>
+	  </div>
+	</div>
+
+	<div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Email:</h5>
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+		   <script language="JavaScript">
+	              var username = "xzhong";
+	              var hostname = "gatech.edu";
+	              var linktext = username + "@" + hostname ;
+	              document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+	           </script>
+	        </h5>
+	  </div>
+	</div>
+
+	<div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Weekly Review:</h5>
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+		      Skiles 269 Thur 4-5
+	        </h5>
+	  </div>
+	</div>
+
+	<div class="row">	</div>
+
+</p>
+</center>
+<hr>
+
+    <p><center>
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>Resources</h3>
+       </div>
+    </div>
+    </center></p>    
+    <p><center>
+    <div class="row"><div class="small-12 columns">
+        <a href="1551syllabus.pdf">Syllabus</a>
+    </div></div>    
+    <div class="row"><div class="small-12 columns">
+        <a href="https://piazza.com/gatech/fall2015/math1551g/home">Piazza</a>
+    </div></div>    
+    <div class="row"><div class="small-12 columns">
+        <a href="https://t-square.gatech.edu/portal/site/gtc-e388-a259-5951-af3f-8781a4bbf2b4">T-square</a>
+    </div></div> 
+    <div class="row"><div class="small-12 columns">
+        <a href="http://www.pearsonmylabandmastering.com/northamerica/mymathlab/">MyMathLab</a> course ID scott05943 
+    </div></div>
+    <div class="row"><div class="small-12 columns">
+        <a href="http://www.math.gatech.edu/course/math/1551">School of Math Course Description</a>
+    </div></div>
+    </center></p>
+
+    <hr>
+    <p><center>
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>The Course</h3>
+       </div>
+    </div>
+    </center></p>
+
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  <h4>Date</h4>		
+		</div>
+	    <div class="small-2 columns">
+	        <h4>Topic</h4>
+	    </div>
+	    <div class="small-2 columns">
+	        <h4>Text</h4>
+	    </div>
+	    <div class="small-2 columns">
+	        <h4>Links</h4>
+	    </div>
+	    <div class="small-2 columns">
+	        <h4>Slides</h4>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    7 Dec
+		</div>
+	    <div class="small-2 columns">
+	    Final
+	    </div>
+	    <div class="small-2 columns">
+	    2:50-5:40
+	    </div>
+	    <div class="small-2 columns">
+	      <a href="1551reviewQuestionsBeamer.pdf">Review Questions</a>
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>    
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    23 Nov
+		</div>
+	    <div class="small-2 columns">
+	    Fundamental Theorem of Calculus
+	    </div>
+	    <div class="small-2 columns">
+	    5.4
+	    </div>
+	    <div class="small-2 columns">
+	      <a href="https://www.youtube.com/watch?v=OLPl0wR85ho">FOTC</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day25.svg'>Day 25</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>    
+    
+     <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    20 Nov
+	    </div>
+	    <div class="small-2 columns">
+	    Exam 4: Chapters 4.1-4.4
+	    </div>
+	    <div class="small-2 columns">
+	    <a href="1551practiceexam4.pdf">Practice Exam</a>
+	    </div>
+	    <div class="small-2 columns">
+	     &nbsp 
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    16 Nov
+		</div>
+	    <div class="small-2 columns">
+	    Antiderivatives
+	    </div>
+	    <div class="small-2 columns">
+	    4.8
+	    </div>
+	    <div class="small-2 columns">
+	      <a href="https://www.youtube.com/watch?v=0s4_ojV_HNY">Antiderivatives</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day23.svg'>Day 24</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    11 Nov
+		</div>
+	    <div class="small-2 columns">
+	    Newton's Method
+	    </div>
+	    <div class="small-2 columns">
+	    4.7
+	    </div>
+	    <div class="small-2 columns">
+	      <a href="https://www.youtube.com/watch?v=ER5B_YBFMJo">Newton's Method</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day23.svg'>Day 23</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read 4.6. Problem set due 16 Nov.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    9 Nov
+		</div>
+	    <div class="small-2 columns">
+	    Concavity
+	    </div>
+	    <div class="small-2 columns">
+	    4.4
+	    </div>
+	    <div class="small-2 columns">
+	      <a href="https://www.youtube.com/watch?v=UK2shgCXALo">Concavity</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day22.svg'>Day 22</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    4 Nov
+		</div>
+	    <div class="small-2 columns">
+	    1st Derivative Test
+	    </div>
+	    <div class="small-2 columns">
+	    4.3
+	    </div>
+	    <div class="small-2 columns">
+	      <a href="https://www.youtube.com/watch?v=h9nu6ZEm2sI">1st Deriv</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day21.svg'>Day 21</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    2 Nov
+		</div>
+	    <div class="small-2 columns">
+	    Mean Value Theorem
+	    </div>
+	    <div class="small-2 columns">
+	    4.2
+	    </div>
+	    <div class="small-2 columns">
+	      <a href="https://www.youtube.com/watch?v=cE2Sibr7msQ"> Rolle and Mean</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day20.svg'>Day 20</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read 4.3-5. Problem set due 9 Nov.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+
+	<hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    30 Oct
+	    </div>
+	    <div class="small-2 columns">
+	    Exam 3: Chapters 3.7-11
+	    </div>
+	    <div class="small-2 columns">
+	    <a href="1551practiceexam3.pdf">Practice Exam</a>
+	    </div>
+	    <div class="small-2 columns">
+	     &nbsp 
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+     <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    28 October
+		</div>
+	    <div class="small-2 columns">
+	        Recitation
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  26 Oct
+		</div>
+	    <div class="small-2 columns">
+	        Extrema
+	    </div>
+	    <div class="small-2 columns">
+	        4.1
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.khanacademy.org/math/differential-calculus/derivative_applications/critical_points_graphing/v/testing-critical-points-for-local-extremaE">Critical points</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day19.svg'>Day 19</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  21 Oct
+		</div>
+	    <div class="small-2 columns">
+	        Error
+	    </div>
+	    <div class="small-2 columns">
+	        3.11
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=V0ZRvvHfF0E">Error Propagation</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day18.svg'>Day 18</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+	<hr>
+    
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Problem set due Nov 2.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Problem set due Oct 26.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  19 Oct
+		</div>
+	    <div class="small-2 columns">
+	        Differentials 
+	    </div>
+	    <div class="small-2 columns">
+	        3.10,11
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=cXIQKIj-NSo">Differentials</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day17.svg'>Day 17</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    16 October
+		</div>
+	    <div class="small-2 columns">
+	        Recitation
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+<!--	    <a href="https://www.khanacademy.org/math/differential-calculus/limits_topic/continuity-limits/v/limits-to-define-continuity">Continuity</a>-->
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read 4.1-2. Problem set due 19 October.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  14 Oct
+		</div>
+	    <div class="small-2 columns">
+	        Related Rates
+	    </div>
+	    <div class="small-2 columns">
+	        3.10
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.khanacademy.org/math/differential-calculus/derivative_applications/rates_of_change/v/related-rates-of-water-pouring-into-cone">Related Rates</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day16.svg'>Day 16</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+
+
+	<hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    9 Oct
+	    </div>
+	    <div class="small-2 columns">
+	    Exam 2: Chapters 3.1-6
+	    </div>
+	    <div class="small-2 columns">
+	    <a href="1551practice2.pdf">Practice Exam</a>
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="1551exam2solutions.pdf">Solutions</a>
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    &nbsp
+		</div>
+	    <div class="small-2 columns">
+	        Recitation
+	    </div>
+	    <div class="small-2 columns">
+          <a href="https://jeopardylabs.com/play/differential-calculus2"> Jeopardy</a> 
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  5 Oct
+		</div>
+	    <div class="small-2 columns">
+	        Tangent and Normal 
+	    </div>
+	    <div class="small-2 columns">
+	        3.7,8
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=C5G2Js2_Ep4">Normal Line</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day15.svg'>Day 15</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+	
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework:  Problem set due 14 October.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  30 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Implicit differentiation
+	    </div>
+	    <div class="small-2 columns">
+	        3.7,8
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=Lt0L3wDHqm8">Inverse Rule</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day14.svg'>Day 14</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework:  Read 3.9-11.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  28 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Chain Rule
+	    </div>
+	    <div class="small-2 columns">
+	        3.6
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=6_lmiPDedsY">Chain Rule</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day13.svg'>Day 13</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Problem set 7 due 5 October. Read 3.7-8.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  25 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Recitation
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  23 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Trig Derivatives
+	    </div>
+	    <div class="small-2 columns">
+	        3.5
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=RJJSiNz5oto">Trig Limits</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day11.svg'>Day 12</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read 3.6-3.7
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  21 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Rules of Differentiation
+	    </div>
+	    <div class="small-2 columns">
+	        3.3
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=jIX0VvwfEko">Quotient Rule</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day11.svg'>Day 11</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Problem set 6 due 28 Sept. Read 3.4-3.5
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+	<hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	    18 Sept
+	    </div>
+	    <div class="small-2 columns">
+	    Exam 1: Chapters 1 & 2
+	    </div>
+	    <div class="small-2 columns">
+	    <a href="1551practiceexam1.pdf">Practice Exam</a>
+	    </div>
+	    <div class="small-2 columns">
+	    <a href="exam1sols.pdf">Solutions</a>
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  16 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Recitation
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Problem set 5 due 21 Sept.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+ 
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  14 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Rules of Differentiation
+	    </div>
+	    <div class="small-2 columns">
+	        3.2
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=uPCjqfT0Ixg">Product Rule</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day10.svg'>Day 10</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+	
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  11 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Derivative
+	    </div>
+	    <div class="small-2 columns">
+	        3.1, 3.2
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.khanacademy.org/math/differential-calculus/taking-derivatives/derivative_intro/v/alternate-form-of-the-derivative">Derivatives</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day9.svg'>Day 9</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read 3.1-3.3.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  9 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Differentiability
+	    </div>
+	    <div class="small-2 columns">
+	        2.1,3.1
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=vzDYOHETFlo">Derivatives</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day8.svg'>Day 8</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Problem set 4 due 14 Sept.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  4 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Recitation
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  2 Sept
+		</div>
+	    <div class="small-2 columns">
+	        Continuity
+	    </div>
+	    <div class="small-2 columns">
+	        2.5
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.khanacademy.org/math/differential-calculus/limits_topic/continuity-limits/v/limits-to-define-continuity">Continuity</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day7.svg'>Day 7</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Problem set 3 due Tuesday 8 Sept.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  31 August
+		</div>
+	    <div class="small-2 columns">
+	        Limits at &infin;
+	    </div>
+	    <div class="small-2 columns">
+	        2.6
+	    </div>
+	    <div class="small-2 columns">
+	     <a href="https://www.youtube.com/watch?v=FVJNuukADeQ">Limits at &infin;</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day6.svg'>Day 6</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+
+    	
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  28 August
+		</div>
+	    <div class="small-2 columns">
+	        Recitation
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	        &nbsp
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+	
+    <hr>
+        <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read 2.6
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  26 August
+		</div>
+	    <div class="small-2 columns">
+	        Limits
+	    </div>
+	    <div class="small-2 columns">
+	        2.1,2,4
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=NcUNG3OkTG8">Slope, Secant, Tangent</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day5.svg'>Day 5</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+	
+    <hr>
+        <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework 2: Read 2.4-5. Problem set 2 due Monday 31 August.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>    
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  24 August
+		</div>
+	    <div class="small-2 columns">
+	        Limits
+	    </div>
+	    <div class="small-2 columns">
+	        2.2
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=3R_wiVYsphI">Limits</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day4.svg'>Day 4</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+	
+    <hr>
+        <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read 2.1-2.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>  
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  21 August
+		</div>
+	    <div class="small-2 columns">
+	        Exp, Log, Inverse
+	    </div>
+	    <div class="small-2 columns">
+	        1.5-6
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=Ec5YYVxyq44">Finding inverses</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href='1551slides/day3.svg'>Day 3</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+	<hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read 1.5-6.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>    
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  19 August
+		</div>
+	    <div class="small-2 columns">
+	        Trig Functions
+	    </div>
+	    
+	    <div class="small-2 columns">
+	        1.2-3
+	    </div>
+	    
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=mjmbKtyBNYo">Trig Review</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href="1551slides/day2.svg">Day 2</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	</div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework 1: Read Chapter 1.2-3. Chapter 1 problem set on MyMathLab due 24 August.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+ 
+      <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  17 August
+		</div>
+	    <div class="small-2 columns">
+	        Functions
+	    </div>
+	    <div class="small-2 columns">
+	        1.1-2
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=axZTv5YJssA">Who made calc?</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href="1551slides/day1.svg">Day 1</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework 0: Read the <a href="1551syllabus.pdf">syllabus</a>. Enroll in the course over <a href="https://piazza.com/gatech/fall2015/math1551g">Piazza</a> and <a href="http://www.pearsonmylabandmastering.com/northamerica/mymathlab/">MyMathLab</a>. Introduce yourself on <a href="https://piazza.com/gatech/fall2015/math1551g">Piazza</a>. Read Taylor chapter 1.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>
+    </p>
+
+
+    <p><center>
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>Additional Interest and Help</h3>
+       </div>
+    </div>
+    </center></p>    
+    <p><center>
+    
+
+    
+    <a href="https://www.math.gatech.edu/academics/undergraduate/tutors-and-labs">Math Lab Tutoring</a>
+    
+    
+    <div class="row"><div class="small-12 columns">
+    <a href="https://www.khanacademy.org/math/differential-calculus">Khan Academy: Differential Calculus</a>
+     </div></div>   
+    <div class="row"><div class="small-12 columns">
+        <a href="http://patrickjmt.com/">Patrick's Just Math Tutorials</a>
+    </div></div>
+    <div class="row"><div class="small-12 columns">
+        <a href="http://tutorial.math.lamar.edu/">Paul's Calculus Notes</a>
+    </div></div> 
+     <div class="row"><div class="small-12 columns">
+        <a href="http://math.stackexchange.com/">Math Stack Exchange </a> 
+    </div></div>   
+        <div class="row"><div class="small-12 columns">
+        <a href="https://www.youtube.com/user/numberphile">Numberphile: </a> My favorite math videos
+    </div></div> 
+    
+    
+    </center></p>
+
+
+    <div class="footer">
+        <p>&nbsp</p>
+    </div>
+ 
+  </body>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>    
+
+   <script>
+      $(document).foundation();
+    </script>
+</html>
+
+
+

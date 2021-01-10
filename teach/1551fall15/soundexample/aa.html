@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.0.52/wavesurfer.min.js"></script>
+    </head>
+    <body>
+      <div id="waveform"></div>
+
+      <div style="text-align: center">
+        <button class="btn btn-primary" onclick="wavesurfer.playPause()">
+          <i class="glyphicon glyphicon-play"></i>
+          Play
+        </button>
+      </div>
+    </body>
+    <script>
+        var wavesurfer = WaveSurfer.create({
+             container: '#waveform',
+             waveColor: 'violet',
+             progressColor: 'purple'
+         });
+
+        // var slider = document.querySelector('#slider');
+        //
+        // slider.oninput = function () {
+        // var zoomLevel = Number(slider.value);
+        // wavesurfer.zoom(zoomLevel);
+
+        var song = 'http://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3'
+        wavesurfer.load(song);
+        // wavesurfer.on('ready', function () {wavesurfer.play();});
+    </script>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yellow Pince-nez</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel="shortcut icon" href="tenta.ico" >
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      .parameterboxes{
+        font-family: monospace;
+        margin: 10px;
+      }
+    </style>
+</head>
+
+<body>
+    <!-- <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="index.html">Shane Scott </a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+  
+        <section class="top-bar-section">
+          <ul class="left">
+            <li><a href="about.html">Contact</a></li>
+          </ul>
+          <ul class="left">
+            <li><a href="researchings.html">Research</a></li>
+          </ul>
+          <ul class="left">
+            <li><a href="teachings.html">Teaching</a></li>
+          </ul>
+          <ul class="left">
+            <li><a href="mathings.html">Math!</a></li>
+          </ul>
+          <ul class="left">
+            <li><a href="teach/3012spring18/math3012.html">3012L</a></li>
+          </ul>
+        </section>
+      </nav> -->
+
+    <div>
+    <canvas id='c'>
+       <!-- style='position:absolute; left:0px; top:0px; overflow:scroll;'> -->
+    </canvas>
+    </div>
+
+    <div class = "parameterboxes">
+        <p>
+        Welcome to the Yellow Pince-nez!
+      </p>
+      <p>
+        Click toggles to remove all but one color.
+        This class of puzzles generalizes the <a href="https://www.wowhead.com/guides/the-hivemind">Yellow Monocle Puzzle</a>, which may be found in the <a href="https://www.wowhead.com/halls-of-origination">Halls of Origination.</a> 
+        Full code can be found at <a href="https://github.com/scottsha/yellowpincenez">GitHub.</a> Input a puzzle below or generate a random one! Solver included.
+      </p>
+
+      <p>
+        Puzzle Parameters
+      </p>
+
+    <p>
+      <button type="button" id="solvebutton">Display Solution</button>
+    </p>
+
+    <p>
+        <button type="button" id="togglebutton">Randomly Toggle Board</button>
+      </p>
+      <p>
+      <button type="button" id="randomboardbutton">New Board</button>
+    </p>
+
+    <p>
+      Colors
+      <input type="text" name="enter" class="enter" value="4" id="colorsinput"></input>
+      Rows
+      <input type="text" name="enter" class="enter" value="18" id="rowsinput"></input>
+      Columns
+      <input type="text" name="enter" class="enter" value="20" id="colsinput"></input>
+    </p>
+
+    <p>
+      Density
+      <input type="text" name="enter" class="enter" value="0.2" id="densityinput"></input>
+      Inner Radius
+      <input type="text" name="enter" class="enter" value="0" id="inradinput"></input>
+      Outer Radius
+      <input type="text" name="enter" class="enter" value="12" id="outradinput"></input>
+    </p>
+
+    <p>
+      <button type="button" id="boardbuttoninput">Read In Board</button>
+    </p>
+    <p>
+        Input Board. Use +, x, and o for toggles, - for a blank square,
+        and then any symbols for the colors.
+        Input board must have all rows the same length.
+    </p>
+    <p>
+      Specify the color symbols in the order that they cycle:
+      <input type="text" name="enter" class="enter" value="wyrg" id="colororderinput"></input>
+    </p>
+    <p>
+      Input a board like so:
+<textarea rows="32" cols="33" id="boardinput">
+---------yygggx+gygrggw---------
+--------+wrxwggygxx+wwyy--------
+-------oygyrwwggyrrgyw+ww-------
+------ryyyorwrrogxyr+oo+wy------
+-----yrgywwyygyxo+rgyogggyg-----
+----gxrgyrwy+gryyw+wgryrryyw----
+---yxxgxwygwwgxg+ryxyrwyorxy+---
+--+oxxgorygwwwwggrgoygggyggggr--
+-+xgwwggryyrgyryyrgyyrgry+w+rwx-
++ryryyrywgggr+wgyryrggygwwgygywg
+rwr++oyrw+gygr+rwgxrr+wyrwwwwwyw
+gwggrwggggw+g------rgggxrg+xwwo+
+ggrrygrorrgw--------wgwg+wyyryrg
+yyrrygrg+yw----------rrogggyxwgw
+xgw+wrgrrwr----------gyryrwr+yxg
+wogwywgggxg----------rwwyyygyrx+
+y+wgyw++gwg----------rxy+rwgggwg
+gwwygwwggwg----------gwxxxgg+rrw
+gwyoygwwwyw----------grwwo+ygw+g
+rw+gxoggorgg--------wgwwrwgxyrww
+gwrwrwoyw+ogg------xygrgwgyrwrwg
+gxwxgwoxgxyyx++yy+wywyryrgrowrgy
+xwryx+wwggwoywwggwogyywwgyyw+ggr
+-xgwogywyyggww+yrygrywoorxwywgw-
+--+rrgwyorwyoy+wgogggrxrygrwx+--
+---grwry+yxrrrgxgggggryrgwyoo---
+----wgygw+wrwwryrrrrrygrgyyw----
+-----ry+wyrwrrggr+yyyg+rwyr-----
+------or+gwyyywowrggrrrrog------
+-------xrw+gggygogrxggwgg-------
+--------gryggorgw+grxyyg--------
+---------rrw+xwggwgwxgy---------</textarea>
+    </p>
+  </div>
+
+  <script src="scripts/math.js"></script>
+  <script src="scripts/yellow_monocle.js"></script>
+  <script src="scripts/yellow_gui.js"></script>
+
+</body>
+
+<!-- <body>
+    <input type="text" name="enter" class="enter" value="" id="lolz"/>
+    <input type="button" value="click" OnClick="kk()"/>
+</body> -->
+</html>

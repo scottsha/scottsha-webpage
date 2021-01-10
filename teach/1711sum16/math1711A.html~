@@ -1,0 +1,1186 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math3012</title>
+    <link rel="stylesheet" href="../../css/foundation.css" />
+    <script src="../../js/vendor/modernizr.js"></script>
+    <link rel="shortcut icon" href="../../tenta.ico" >
+  </head>
+
+  <body>
+      <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="../../index.html">Shane Scott
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li><a href="../../index.html">Contact</a></li>
+        </ul>
+        <ul class="left">
+          <li><a href="../../researchings.html">Research</a></li>
+        </ul>
+        <ul class="left">
+          <li><a href="../../teachings.html">Teaching</a></li>
+        </ul>
+        <ul class="left">
+          <li><a href="../../mathings.html">Math!</a></li>
+        </ul>
+        <ul class="left">
+          <li><a href="math1711A.html">MATH1711</a></li>
+        </ul>
+      </section>
+    </nav>
+
+<p>
+<center>
+    <div class="row">
+	<h3>Math 3012: Applied Combinatorics</h3>
+    </div>
+    <div class="row">
+    <h5>  Summer 2015 at  <a href="http://www.gatech.edu"> Georgia Institute of Technology</a>
+    </h5>
+    <h5>
+	    <a href="syllabus.pdf">Syllabus</a>
+	</h5>	
+    </div>
+</center>
+</p>
+
+ <p>
+    <div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Instructor:</h5>		
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+	        Shane Scott
+	        </h5>
+	  </div>
+	</div>
+
+	<div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Email:</h5>
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+		   <script language="JavaScript">
+	              var username = "scottsha";
+	              var hostname = "gatech.edu";
+	              var linktext = username + "@" + hostname ;
+	              document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+	           </script>
+	        </h5>
+	  </div>
+	</div>
+
+	<div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Office:</h5>
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+		<a href="https://www.google.com/maps/place/Department+of+Mathematics/@33.7734736,-84.3964651,17z/data=!4m6!1m3!3m2!1s0x88f5048aebc34fe3:0xb52ad03e3ad8c50f!2sGeorgia+Institute+of+Technology!3m1!1s0x0:0x76384ad84620cdb1">Skiles 252</a>
+	        </h5>
+	  </div>
+	</div>
+
+	<div class="row">
+		<div class="small-3 columns"> &nbsp </div>
+	        <div class="small-2 columns">
+		 <h5>Hours:</h5>
+		</div>
+	  <div class="small-7 columns">
+	        <h5>
+	        MF 11-12,  W 4-5, or by appointment
+	        </h5>
+	  </div>
+	</div>
+</p>
+</center>
+
+
+    <p><center>
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>Resources</h3>
+       </div>
+    </div>
+    </center></p>    
+    <p><center>
+    <div class="row"><div class="small-12 columns">
+        <a href="https://piazza.com/class/i9au9tlaulr5q1">Piazza</a>
+    </div></div>    
+    <div class="row"><div class="small-12 columns">
+        <a href="https://t-square.gatech.edu/portal/site/gtc-b3fa-acb9-585f-89c3-4d34583ebccb">T-square</a>
+    </div></div> 
+    <div class="row"><div class="small-12 columns">
+        <a href="http://people.math.gatech.edu/~trotter/book.pdf">Text: Applied Combinatorics by Keller and Trotter</a>
+    </div></div>
+        <div class="row"><div class="small-12 columns">
+        <a href="postman.pdf">Postman Problem Addendum</a>
+    </div></div>
+    <div class="row"><div class="small-12 columns">
+        <a href="http://people.math.gatech.edu/~trotter/math-3012/toppage.html">Prof. William T. Trotter's Coursepage</a>
+    </div></div>    
+    </center></p>
+
+    
+    <p><center>
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>The Course</h3>
+       </div>
+    </div>
+    </center></p>
+
+  <p>
+  <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  <h4>Date</h4>		
+		</div>
+	    <div class="small-2 columns">
+	        <h4>Topic</h4>
+	    </div>
+	    <div class="small-2 columns">
+	        <h4>Text</h4>
+	    </div>
+	    <div class="small-2 columns">
+	        <h4>Links</h4>
+	    </div>
+	    <div class="small-2 columns">
+	        <h4>Slides</h4>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+
+    <!-- Permutations: https://www.youtube.com/watch?v=S9UgnSrsS08 -->
+    <!-- Functions: https://www.youtube.com/watch?v=VUTXsPFx-qQ -->
+    <!-- Functions: https://www.youtube.com/watch?v=3IjfebJgPP8 -->
+    <!-- Stable Marriage: https://www.youtube.com/watch?v=Qcv1IqHWAzg -->
+    <!-- Secretary problem: https://www.youtube.com/watch?v=ZWib5olGbQ0 -->
+    <!-- Postage stamp problem: https://www.youtube.com/watch?v=vNTSugyS038-->
+    <!-- Illegal primes: https://www.youtube.com/watch?v=wo19Y4tw0l8 -->
+    <!-- RSA https://www.youtube.com/watch?v=M7kEpw1tn50&feature=iv&src_vid=wo19Y4tw0l8&annotation_id=annotation_529067 -->
+    <!-- Card Shuffling https://www.youtube.com/watch?v=AxJubaijQbI -->
+    <!--Dots and boxes https://www.youtube.com/watch?v=KboGyIilP6k -->
+    <!--Monty Hall https://www.youtube.com/watch?v=4Lb-6rxZxx0 -->
+    <!-- Knight Tour https://www.youtube.com/watch?v=ab_dY3dZFHM -->
+    <!-- Enigma Machine https://www.youtube.com/watch?v=G2_Q9FoD-oQ -->
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		 30 July
+		</div>
+	    <div class="small-9 columns">
+	        Final Exam 11:30-2:20
+	    </div>
+	</div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		 &nbsp
+		</div>
+	    <div class="small-9 columns">
+	        <a href="3012review.pdf">Review</a>
+	    </div>
+	</div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  17 July
+		</div>
+	    <div class="small-2 columns">
+	        Probability
+	    </div>
+	    <div class="small-2 columns">
+	        10.1-2
+	    </div>
+	    <div class="small-2 columns">
+              <a href="http://math.ucsd.edu/~crypto/Monty/monty.html">Monty Hall</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day26.svg"> Day 26</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  15 July
+		</div>
+	    <div class="small-2 columns">
+	        Flow Applications
+	    </div>
+	    <div class="small-2 columns">
+	        14.2
+	    </div>
+	    <div class="small-2 columns">
+              <a href="https://www.youtube.com/watch?v=28iDs-x74OE">Bipartite Matching</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day25.svg"> Day 25</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  13 July
+		</div>
+	    <div class="small-2 columns">
+	        Flow Complexity
+	    </div>
+	    <div class="small-2 columns">
+	        13.4
+	    </div>
+	    <div class="small-2 columns">
+              <a href="https://www.youtube.com/watch?v=SqGeM3FYkfo">Edmunds-Karp</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day24.svg"> Day 24</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Suggested excercises: &sect 13.7 #1,5,9,10  &sect 14.4 # 2
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  10 July
+		</div>
+	    <div class="small-2 columns">
+	        Network Flows
+	    </div>
+	    <div class="small-2 columns">
+	        13.1-3
+	    </div>
+	    <div class="small-2 columns">
+              <a href="https://www.youtube.com/watch?v=LfbKwot9sZA">Ford Fulkerson</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day23.svg"> Day 23</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 13.4-5 
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  8 July
+		</div>
+	    <div class="small-2 columns">
+	        More Graph Algoritms
+	    </div>
+	    <div class="small-2 columns">
+	        <a href="postman.pdf">Addendum</a>
+	    </div>
+	    <div class="small-2 columns">
+              <a href="https://www.youtube.com/watch?v=JCSmxUO0v3k">Postman Problem</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day22.svg"> Day 22</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 13.1-3 
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  6 July
+		</div>
+	    <div class="small-2 columns">
+	        Weighted Graphs
+	    </div>
+	    <div class="small-2 columns">
+	        12
+	    </div>
+	    <div class="small-2 columns">
+  	       <a href="https://www.youtube.com/watch?v=71UQH7Pr9kU">Kruskal's</a>
+	       <a href="https://www.youtube.com/watch?v=cplfcGZmX7I&feature=iv&src_vid=71UQH7Pr9kU&annotation_id=annotation_1257243555">Prim's</a>
+	       <a href="https://www.youtube.com/watch?v=8Ls1RqHCOPw">Dijkstra's</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day21.svg"> Day 21</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework 8: Read &sect 12. Excercises &sect 15.6 # 4,12, &sect 12.6 #2,3,11.  Due 13 July.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		 1 July
+		</div>
+	    <div class="small-9 columns">
+	        Exam 2: &sect 6.1-3, 7, 8, 9
+	    </div>
+	</div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  29 June
+		</div>
+	    <div class="small-2 columns">
+	        Polya's Enumeration
+	    </div>
+	    <div class="small-2 columns">
+	        15
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="http://doc.sagemath.org/html/en/reference/categories/sage/categories/finite_permutation_groups.html">Polya in Sage</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day20.svg"> Day 20</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  26 June
+		</div>
+	    <div class="small-2 columns">
+	        Burnside's Lemma
+	    </div>
+	    <div class="small-2 columns">
+	        15.1-3
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=wdDF7_vfLcE">Burnside Tic Tac Toe</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day19.svg"> Day 19</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  24 June
+		</div>
+	    <div class="small-2 columns">
+	        Recurrence Relations
+	    </div>
+	    <div class="small-2 columns">
+	        9
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=EfF_XSEX1Sk"> Nonhomogenous Recurrence</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day18.svg"> Day 18</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework 7: Excercises &sect 9.2,4,10,12. Due 1 July.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  22 June
+		</div>
+	    <div class="small-2 columns">
+	        Recurrence Relations
+	    </div>
+	    <div class="small-2 columns">
+	        9
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=aHw7hAAjbD0"> Solving Recurrences </a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day17.svg"> Day 17</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 9.1-3
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+ 
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  19 June
+		</div>
+	    <div class="small-2 columns">
+	        Generating Functions II
+	    </div>
+	    <div class="small-2 columns">
+	        8
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="http://www.ted.com/talks/arthur_benjamin_the_magic_of_fibonacci_numbers"> Fibonacci </a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day16.svg"> Day 16</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework 6: Read 8.4-5. Excercises &sect 6.10 # 4, &sect 7.7 #2,15,21, &sect 8.8 # 2d-f,6,15. Due 26 June.
+	    Use a computer algebra system for the difficult polynomial arithmetic (8.8 # 6,15)
+	    <a href="https://cloud.sagemath.com/projects/57c1c467-b09b-42bb-8048-303713fa786d/files/examples.sagews">Here is an example in Sage Math Cloud.</a>
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  17 June
+		</div>
+	    
+	    <div class="small-2 columns">
+	        Generating Functions
+	    </div>
+	    <div class="small-2 columns">
+	        8.1-3
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=Pp4PWCPzeQs">Generating Functions</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day15.svg">Day 15</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 8 
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  15 June
+		</div>
+	    
+	    <div class="small-2 columns">
+	        Twelvefold Way
+	    </div>
+	    <div class="small-2 columns">
+	        7.4
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="http://www.math.wisc.edu/~ddrake/pdf/twelvefold-way.pdf">12fold</a>
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp<a href="slides/day14.svg">Day 14</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 7.4. 
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  12 June
+		</div>
+	    
+	    <div class="small-2 columns">
+	        Inclusion-Exclusion
+	    </div>
+	    <div class="small-2 columns">
+	        7.1-3
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp<a href="slides/day13.svg">Day 13</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 7.1-3. 
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		 10 June
+		</div>
+	    <div class="small-9 columns">
+	        Exam 1: &sect 2,3,4,5
+	    </div>
+	</div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  8 June
+		</div>
+	    
+	    <div class="small-2 columns">
+	        Trees vs Posets
+	    </div>
+	    <div class="small-2 columns">
+	        6.1-3
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=4DQcTbN0eeY"> Binary Relations </a>
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp<a href="slides/day12.svg">Day 12</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>    
+    </div>
+     
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  5 June
+		</div>
+	    <div class="small-2 columns">
+	        Planarity
+	    </div>
+	    <div class="small-2 columns">
+	        5.5
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="http://planarity.net/">Planarity Game</a>
+	       <a href="https://www.youtube.com/watch?v=wnYtITkWAYA">Planarity</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day11.svg">Day 11</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 6.1-3. Excercises &sect 5.9 # 6,11,15,17,29,34. Due 12 June.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  3 June
+		</div>
+	    <div class="small-2 columns">
+	        Coloring
+	    </div>
+	    <div class="small-2 columns">
+	        5.4-5
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="http://www.flashandmath.com/mathlets/discrete/graphtheory/hamiltongraphs.html">Hamiltonian</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day10.svg">Day 10</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 5.6-8
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  1 June
+		</div>
+	    <div class="small-2 columns">
+	        Graphs
+	    </div>
+	    <div class="small-2 columns">
+	        5.1-3
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="http://www.flashandmath.com/mathlets/discrete/graphtheory/euler.html"> Eulerian Game</a>
+	       
+	       <a href="http://www.flashandmath.com/mathlets/discrete/graphtheory/isomorphism.html">Isomorphic</a>
+	       
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day9.svg">Day 9</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 5.4-5.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  29 May
+		</div>
+	    <div class="small-2 columns">
+	        Complexity
+	    </div>
+	    <div class="small-2 columns">
+	        4.2-5
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=YX40hbAHx3s">P vs NP</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day8.svg">Day 8</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    <p>Homework 4: Read &sect 5.1-3. Excercises &sect 4.6 # 1.a,b,g,m</p>
+	    <p>Problem 6: Ten points are chosen inside a square with sidelength 1. Prove that it is always possible to find a pair of points that are at most √2/3 apart. </p>
+	    <p>Problem 7: <a href="https://www.youtube.com/watch?v=G2_Q9FoD-oQ">The Enigma Machine</a> (watch) was used during WWII to encrypt messages character by character. Decrypting a message requires using the same machine setting as the encryption. Determine the complexity of decrypting an Enigma encoded message by trying every possible setting in terms of the input alphabet size n=2k. (For English letters n=26, k=13). The setting cosists of 1) a choice of 1st, 2nd, and 3rd rotor from 5 rotors, each of which has n rotary starting positions corresponding to the letters and 2) a 'plug setting' which swaps every letter with exactly one partner. 
+	    Due 5 June.
+	    </p>
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+        <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  27 May
+		</div>
+	    <div class="small-2 columns">
+	        Pigeonhole Principle
+	    </div>
+	    <div class="small-2 columns">
+	        4.1
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=Uic3ECK1nso&noredirect=1">PHP</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day7.svg">Day 7</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 4.4-5.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+        <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  22 May
+		</div>
+	    <div class="small-2 columns">
+	        Induction
+	    </div>
+	    <div class="small-2 columns">
+	        3
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="http://patrickjmt.com/proof-by-induction-example-1/">Proof by Induction</a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day6.svg">Day 6</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework 3: Read &sect 4.1-3. Excercises: &sect 3.11 #1,3,4,19,20. Due 29 May.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  20 May
+		</div>
+	    <div class="small-2 columns">
+	        Counting Repetitions and Symmetry
+	    </div>
+	    <div class="small-2 columns">
+	        2.6-8
+	    </div>
+	    <div class="small-2 columns">
+	       &nbsp
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day5.svg">Day 5</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 3.1,2,5,6
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  18 May
+		</div>
+	    <div class="small-2 columns">
+	        Binomial Coefficients
+	    </div>
+	    <div class="small-2 columns">
+	        2.4-5
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=vhx-sgMDOuo"> Combinations </a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day4.svg">Day 4</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read &sect 2.7-8
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    
+    <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  15 May
+		</div>
+	    <div class="small-2 columns">
+	        Bijections, Strings, Permute
+	    </div>
+	    <div class="small-2 columns">
+	        A.4, 2.1-3
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://youtu.be/S9UgnSrsS08"> Permutations </a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day3.svg">Day 3</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework 2: Read &sect 2.4-6 for Monday. T-square appendix quiz. Excercises: &sect 2.9 #2,3,13,19,31. Due 22 May.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+   <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  13 May
+		</div>
+	    <div class="small-2 columns">
+	        Sets and Functions
+	    </div>
+	    <div class="small-2 columns">
+	        A.1-A.6
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="https://www.youtube.com/watch?v=VUTXsPFx-qQ"> Functions </a>
+	    </div>
+	    <div class="small-2 columns">
+	       <a href="slides/day2.svg">Day 2</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework: Read Appendix sections &sect A.4-5 and &sect 2.1-3.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+
+      <hr>
+    <div class="row">
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-2 columns">
+		  11 May
+		</div>
+	    <div class="small-2 columns">
+	        What is Combinatorics?
+	    </div>
+	    <div class="small-2 columns">
+	        1
+	    </div>
+	    <div class="small-2 columns">
+	      <a href="https://www.youtube.com/watch?v=Qcv1IqHWAzg">Stable Marriage</a>
+	    </div>
+	    <div class="small-2 columns">
+	        <a href="slides/day1.svg">Day 1</a>
+	    </div>
+	    <div class="small-1 columns">
+	    &nbsp
+	    </div>
+    </div>
+    <hr>
+    <div class="row">
+	    <div class="small-2 columns">
+	    &nbsp
+	    </div>
+	    <div class="small-8 columns">
+	    Homework 1: (6 points) Introduce yourself on <a href="https://piazza.com/gatech/summer2015/math3012a/home">Piazza</a>. 
+	    Read Appendix sections &sect A.1-6.
+	    </div>
+	    <div class="small-2 columns">
+	    </div> 
+    </div>
+    <hr>
+    </p>
+
+
+    <p><center>
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>Additional Interest and Help</h3>
+       </div>
+    </div>
+    </center></p>    
+    <p><center>
+    
+    <a href="https://www.math.gatech.edu/academics/undergraduate/tutors-and-labs">Math Lab Tutoring</a>
+    
+    
+    <div class="row"><div class="small-12 columns">
+    <a href="https://www.khanacademy.org/math">Khan Academy</a>
+     </div></div>   
+    <div class="row"><div class="small-12 columns">
+        <a href="http://patrickjmt.com/">Patrick's Just Math Tutorials</a>
+    </div></div>
+
+    <div class="row"><div class="small-12 columns">
+        <a href="https://www.youtube.com/user/numberphile">Numberphile: </a> My favorite math videos
+    </div></div> 
+    
+    <!--<div class="row"><div class="small-12 columns">
+        <a href="http://www.latex-project.org/">LaTeX: </a> The best way to typeset math
+    </div></div>--> 
+    
+    <div class="row"><div class="small-12 columns">
+        <a href="http://www.bbc.co.uk/programmes/b048jmy9">The Infinite Monkey Cage: </a> An episode on numbers from a great science podcast.
+    </div></div>    
+    
+    <div class="row"><div class="small-12 columns">
+        <a href="https://www.sagemath.com/">Sage:</a> Python based math programming. 
+        Try <a href="https://cloud.sagemath.com/">Sage Cloud</a>
+    </div></div>  
+    
+     <div class="row"><div class="small-12 columns">
+        <a href="http://math.stackexchange.com/">Math Stack Exchange </a> 
+    </div></div>   
+    
+    </center></p>
+
+
+    <div class="footer">
+        <p>&nbsp</p>
+    </div>
+ 
+  </body>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>    
+
+   <script>
+      $(document).foundation();
+    </script>
+</html>
+
+
+

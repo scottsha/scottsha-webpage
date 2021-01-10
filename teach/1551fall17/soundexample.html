@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.0.52/wavesurfer.min.js"></script>
+    </head>
+    <body>
+      Function h(x) gives the sound pressure at time x
+      <div id="waveform"></div>
+      <div style="text-align: center">
+        <button class="btn btn-primary" onclick="wavesurfer.playPause()">
+          <i class="glyphicon glyphicon-play"></i>
+          Play
+        </button>
+      </div>
+
+      <div id="waveform2"></div>
+      <div style="text-align: center">
+        <button class="btn btn-primary" onclick="wavesurfer2.playPause()">
+          <i class="glyphicon glyphicon-play"></i>
+          Play
+        </button>
+      </div>
+
+      <div id="waveform3"></div>
+      <div style="text-align: center">
+        <button class="btn btn-primary" onclick="wavesurfer3.playPause()">
+          <i class="glyphicon glyphicon-play"></i>
+          Play
+        </button>
+      </div>
+
+      <div id="waveform4"></div>
+      <div style="text-align: center">
+        <button class="btn btn-primary" onclick="wavesurfer4.playPause()">
+          <i class="glyphicon glyphicon-play"></i>
+          Play
+        </button>
+      </div>
+
+      <div id="waveform5"></div>
+      <div style="text-align: center">
+        <button class="btn btn-primary" onclick="wavesurfer5.playPause()">
+          <i class="glyphicon glyphicon-play"></i>
+          Play
+        </button>
+      </div>
+
+      <div id="waveform6"></div>
+      <div style="text-align: center">
+        <button class="btn btn-primary" onclick="wavesurfer6.playPause()">
+          <i class="glyphicon glyphicon-play"></i>
+          Play
+        </button>
+      </div>
+
+      <div id="waveform7"></div>
+      <div style="text-align: center">
+        <button class="btn btn-primary" onclick="wavesurfer7.playPause()">
+          <i class="glyphicon glyphicon-play"></i>
+          Play
+        </button>
+      </div>
+
+    </body>
+    <script>
+        var wavesurfer = WaveSurfer.create({
+             container: '#waveform',
+             waveColor: 'violet',
+             progressColor: 'purple'
+         });
+        var song = 'sounds/hx.wav'
+        wavesurfer.load(song);
+
+        var wavesurfer2 = WaveSurfer.create({
+             container: '#waveform2',
+             waveColor: 'violet',
+             progressColor: 'purple'
+         });
+        wavesurfer2.load('sounds/point6hx.wav');
+
+        var wavesurfer3 = WaveSurfer.create({
+             container: '#waveform3',
+             waveColor: 'violet',
+             progressColor: 'purple'
+         });
+        wavesurfer3.load('sounds/thirdhx.wav');
+
+        var wavesurfer4 = WaveSurfer.create({
+             container: '#waveform4',
+             waveColor: 'violet',
+             progressColor: 'purple'
+         });
+        wavesurfer4.load('sounds/hhalfx.wav');
+
+        var wavesurfer5 = WaveSurfer.create({
+             container: '#waveform5',
+             waveColor: 'violet',
+             progressColor: 'purple'
+         });
+        wavesurfer5.load('sounds/hdoublex.wav');
+
+        var wavesurfer6 = WaveSurfer.create({
+             container: '#waveform6',
+             waveColor: 'violet',
+             progressColor: 'purple'
+         });
+        wavesurfer6.load('sounds/hxplus40000.wav');
+
+        var wavesurfer7 = WaveSurfer.create({
+             container: '#waveform7',
+             waveColor: 'violet',
+             progressColor: 'purple'
+         });
+        wavesurfer7.load('sounds/hxminus40000.wav');
+
+    </script>
+</html>
