@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11533 items from 5000.
+Database file #1: thesis-blx.bib
+Database file #2: references.bib
+I was expecting a `,' or a `}'---line 171 of file references.bib
+ : @article{schmutz 
+ :                  schaller_2000, title={Mapping Class Groups of Hyperbolic Surfaces and Automorphism Groups of Graphs}, volume={122}, DOI={10.1023/A:1002672721132}, number={3}, journal={Compositio Mathematica}, publisher={London Mathematical Society}, author={Schmutz Schaller, Paul}, year={2000}, pages={243–260}}
+I'm skipping whatever remains of this entry
+Biblatex version: 3.3
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 47 entries,
+            6047 wiz_defined-function locations,
+            1547 strings with 18895 characters,
+and the built_in function-call counts, 137749 in all, are:
+= -- 5450
+> -- 4570
+< -- 1147
++ -- 1451
+- -- 1700
+* -- 9469
+:= -- 8078
+add.period$ -- 0
+call.type$ -- 47
+change.case$ -- 622
+chr.to.int$ -- 57
+cite$ -- 92
+duplicate$ -- 15541
+empty$ -- 15184
+format.name$ -- 2650
+if$ -- 31279
+int.to.chr$ -- 0
+int.to.str$ -- 120
+missing$ -- 0
+newline$ -- 1250
+num.names$ -- 2119
+pop$ -- 14334
+preamble$ -- 1
+purify$ -- 764
+quote$ -- 0
+skip$ -- 8284
+stack$ -- 0
+substring$ -- 3204
+swap$ -- 5536
+text.length$ -- 940
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1774
+warning$ -- 0
+while$ -- 883
+width$ -- 0
+write$ -- 1202
+(There was 1 error message)

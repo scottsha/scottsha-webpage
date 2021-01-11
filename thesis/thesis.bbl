@@ -1,0 +1,1283 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{MR624817}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Harvey}{H.}%
+     {W.~J.}{W.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton Univ. Press, Princeton, N.J.}%
+  }
+  \strng{namehash}{HWJ1}
+  \strng{fullhash}{HWJ1}
+  \field{booktitle}{Riemann surfaces and related topics: {P}roceedings of the
+  1978 {S}tony {B}rook {C}onference ({S}tate {U}niv. {N}ew {Y}ork, {S}tony
+  {B}rook, {N}.{Y}., 1978)}
+  \field{pages}{245\bibrangedash 251}
+  \field{series}{Ann. of Math. Stud.}
+  \field{title}{Boundary structure of the modular group}
+  \field{volume}{97}
+  \field{year}{1981}
+\endentry
+
+\entry{MR786348}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Harer}{H.}%
+     {John~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJL1}
+  \strng{fullhash}{HJL1}
+  \verb{doi}
+  \verb 10.2307/1971172
+  \endverb
+  \field{issn}{0003-486X}
+  \field{number}{2}
+  \field{pages}{215\bibrangedash 249}
+  \field{title}{Stability of the homology of the mapping class groups of
+  orientable surfaces}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.2307/1971172
+  \endverb
+  \field{volume}{121}
+  \field{journaltitle}{Ann. of Math. (2)}
+  \field{year}{1985}
+\endentry
+
+\entry{MR1714338}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Masur}{M.}%
+     {Howard~A.}{H.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Minsky}{M.}%
+     {Yair~N.}{Y.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MHAMYN1}
+  \strng{fullhash}{MHAMYN1}
+  \verb{doi}
+  \verb 10.1007/s002220050343
+  \endverb
+  \field{issn}{0020-9910}
+  \field{number}{1}
+  \field{pages}{103\bibrangedash 149}
+  \field{title}{Geometry of the complex of curves. {I}. {H}yperbolicity}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1007/s002220050343
+  \endverb
+  \field{volume}{138}
+  \field{journaltitle}{Invent. Math.}
+  \field{year}{1999}
+\endentry
+
+\entry{MR1460387}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ivanov}{I.}%
+     {Nikolai~V.}{N.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{INV1}
+  \strng{fullhash}{INV1}
+  \verb{doi}
+  \verb 10.1155/S1073792897000433
+  \endverb
+  \field{issn}{1073-7928}
+  \field{number}{14}
+  \field{pages}{651\bibrangedash 666}
+  \field{title}{Automorphism of complexes of curves and of {T}eichm\"uller
+  spaces}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1155/S1073792897000433
+  \endverb
+  \field{journaltitle}{Internat. Math. Res. Notices}
+  \field{year}{1997}
+\endentry
+
+\entry{meta}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Brendle}}{B.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Margalit}}{M.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Mathematics - Geometric Topology, 57M07}
+  \strng{namehash}{BTMD1}
+  \strng{fullhash}{BTMD1}
+  \verb{eprint}
+  \verb 1710.08929
+  \endverb
+  \field{title}{{Normal subgroups of mapping class groups and the
+  metaconjecture of {Ivanov}}}
+  \field{journaltitle}{ArXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{math.GT}
+  \field{month}{10}
+  \field{year}{2017}
+\endentry
+
+\entry{MR830040}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Culler}{C.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vogtmann}{V.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CMVK1}
+  \strng{fullhash}{CMVK1}
+  \verb{doi}
+  \verb 10.1007/BF01388734
+  \endverb
+  \field{issn}{0020-9910}
+  \field{number}{1}
+  \field{pages}{91\bibrangedash 119}
+  \field{title}{Moduli of graphs and automorphisms of free groups}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1007/BF01388734
+  \endverb
+  \field{volume}{84}
+  \field{journaltitle}{Invent. Math.}
+  \field{year}{1986}
+\endentry
+
+\entry{vogt}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bridson}{B.}%
+     {Martin~R.}{M.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vogtmann}{V.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BMRVK1}
+  \strng{fullhash}{BMRVK1}
+  \verb{doi}
+  \verb 10.1215/S0012-7094-01-10625-X
+  \endverb
+  \field{issn}{0012-7094}
+  \field{number}{2}
+  \field{pages}{391\bibrangedash 409}
+  \field{title}{The symmetries of outer space}
+  \verb{url}
+  \verb http://dx.doi.org.prx.library.gatech.edu/10.1215/S0012-7094-01-10625-X
+  \endverb
+  \field{volume}{106}
+  \field{journaltitle}{Duke Math. J.}
+  \field{year}{2001}
+\endentry
+
+\entry{MR1660045}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hatcher}{H.}%
+     {Allen}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vogtmann}{V.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HAVK1}
+  \strng{fullhash}{HAVK1}
+  \verb{doi}
+  \verb 10.1093/qjmath/49.196.459
+  \endverb
+  \field{issn}{0033-5606}
+  \field{number}{196}
+  \field{pages}{459\bibrangedash 468}
+  \field{title}{The complex of free factors of a free group}
+  \verb{url}
+  \verb http://dx.doi.org.prx.library.gatech.edu/10.1093/qjmath/49.196.459
+  \endverb
+  \field{volume}{49}
+  \field{journaltitle}{Quart. J. Math. Oxford Ser. (2)}
+  \field{year}{1998}
+\endentry
+
+\entry{MR1314940}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hatcher}{H.}%
+     {Allen}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HA1}
+  \strng{fullhash}{HA1}
+  \field{issn}{0010-2571}
+  \field{number}{1}
+  \field{pages}{39\bibrangedash 62}
+  \field{title}{Homological stability for automorphism groups of free groups}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1007/BF02565999
+  \endverb
+  \field{volume}{70}
+  \field{journaltitle}{Comment. Math. Helv.}
+  \field{year}{1995}
+\endentry
+
+\entry{MR0314054}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Laudenbach}{L.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LF1}
+  \strng{fullhash}{LF1}
+  \field{issn}{0003-486X}
+  \field{pages}{57\bibrangedash 81}
+  \field{title}{Sur les {$2$}-sph\`eres d'une vari\'et\'e de dimension {$3$}}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.2307/1970877
+  \endverb
+  \field{volume}{97}
+  \field{journaltitle}{Ann. of Math. (2)}
+  \field{year}{1973}
+\endentry
+
+\entry{souto}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Aramayona}{A.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Souto}{S.}%
+     {Juan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AJSJ1}
+  \strng{fullhash}{AJSJ1}
+  \verb{doi}
+  \verb 10.1307/mmj/1320763044
+  \endverb
+  \field{issn}{0026-2285}
+  \field{number}{3}
+  \field{pages}{483\bibrangedash 493}
+  \field{title}{Automorphisms of the graph of free splittings}
+  \verb{url}
+  \verb http://dx.doi.org.prx.library.gatech.edu/10.1307/mmj/1320763044
+  \endverb
+  \field{volume}{60}
+  \field{journaltitle}{Michigan Math. J.}
+  \field{year}{2011}
+\endentry
+
+\entry{bowditch}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bowditch}{B.}%
+     {Brian~H.}{B.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BBH1}
+  \strng{fullhash}{BBH1}
+  \field{issn}{0026-2285}
+  \field{number}{4}
+  \field{pages}{813\bibrangedash 832}
+  \field{title}{Rigidity of the strongly separating curve graph}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1307/mmj/1480734021
+  \endverb
+  \field{volume}{65}
+  \field{journaltitle}{Michigan Math. J.}
+  \field{year}{2016}
+\endentry
+
+\entry{MR1506881}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Whitney}{W.}%
+     {Hassler}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WH1}
+  \strng{fullhash}{WH1}
+  \verb{doi}
+  \verb 10.2307/2371086
+  \endverb
+  \field{issn}{0002-9327}
+  \field{number}{1}
+  \field{pages}{150\bibrangedash 168}
+  \field{title}{Congruent {G}raphs and the {C}onnectivity of {G}raphs}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.2307/2371086
+  \endverb
+  \field{volume}{54}
+  \field{journaltitle}{Amer. J. Math.}
+  \field{year}{1932}
+\endentry
+
+\entry{putman}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Putman}{P.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PA1}
+  \strng{fullhash}{PA1}
+  \field{issn}{0013-8584}
+  \field{number}{3-4}
+  \field{pages}{287\bibrangedash 301}
+  \field{title}{A note on the connectivity of certain complexes associated to
+  surfaces}
+  \field{volume}{54}
+  \field{journaltitle}{Enseign. Math. (2)}
+  \field{year}{2008}
+\endentry
+
+\entry{SerreJeanPierre2003T}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Serre}{S.}%
+     {Jean~Pierre}{J.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \keyw{Trees (Graph theory); Linear algebraic groups; Free groups}
+  \strng{namehash}{SJP1}
+  \strng{fullhash}{SJP1}
+  \field{edition}{Corr. 2nd print..}
+  \field{isbn}{3540442375}
+  \field{series}{Springer monographs in mathematics}
+  \field{title}{Trees}
+  \list{location}{1}{%
+    {Berlin ; New York}%
+  }
+  \field{year}{2003}
+\endentry
+
+\entry{primer}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Farb}{F.}%
+     {Benson}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Margalit}{M.}%
+     {Dan}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton University Press, Princeton, NJ}%
+  }
+  \strng{namehash}{FBMD1}
+  \strng{fullhash}{FBMD1}
+  \field{isbn}{978-0-691-14794-9}
+  \field{pages}{xiv+472}
+  \field{series}{Princeton Mathematical Series}
+  \field{title}{A primer on mapping class groups}
+  \field{volume}{49}
+  \field{year}{2012}
+\endentry
+
+\entry{MR1867354}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hatcher}{H.}%
+     {Allen}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press, Cambridge}%
+  }
+  \strng{namehash}{HA1}
+  \strng{fullhash}{HA1}
+  \field{isbn}{0-521-79160-X; 0-521-79540-0}
+  \field{pages}{xii+544}
+  \field{title}{Algebraic topology}
+  \field{year}{2002}
+\endentry
+
+\entry{MR1696431}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Korkmaz}{K.}%
+     {Mustafa}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KM1}
+  \strng{fullhash}{KM1}
+  \verb{doi}
+  \verb 10.1016/S0166-8641(97)00278-2
+  \endverb
+  \field{issn}{0166-8641}
+  \field{number}{2}
+  \field{pages}{85\bibrangedash 111}
+  \field{title}{Automorphisms of complexes of curves on punctured spheres and
+  on punctured tori}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1016/S0166-8641(97)00278-2
+  \endverb
+  \field{volume}{95}
+  \field{journaltitle}{Topology Appl.}
+  \field{year}{1999}
+\endentry
+
+\entry{MR1722024}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Luo}{L.}%
+     {Feng}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LF2}
+  \strng{fullhash}{LF2}
+  \field{issn}{0040-9383}
+  \field{number}{2}
+  \field{pages}{283\bibrangedash 298}
+  \field{title}{Automorphisms of the complex of curves}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1016/S0040-9383(99)00008-7
+  \endverb
+  \field{volume}{39}
+  \field{journaltitle}{Topology}
+  \field{year}{2000}
+\endentry
+
+\entry{MR0243519}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Birman}{B.}%
+     {Joan~S.}{J.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJS1}
+  \strng{fullhash}{BJS1}
+  \verb{doi}
+  \verb 10.1002/cpa.3160220206
+  \endverb
+  \field{issn}{0010-3640}
+  \field{pages}{213\bibrangedash 238}
+  \field{title}{Mapping class groups and their relationship to braid groups}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1002/cpa.3160220206
+  \endverb
+  \field{volume}{22}
+  \field{journaltitle}{Comm. Pure Appl. Math.}
+  \field{year}{1969}
+\endentry
+
+\entry{MR1324339}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Brown}{B.}%
+     {Kenneth~S.}{K.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag, New York}%
+  }
+  \strng{namehash}{BKS1}
+  \strng{fullhash}{BKS1}
+  \field{isbn}{0-387-90688-6}
+  \field{note}{Corrected reprint of the 1982 original}
+  \field{pages}{x+306}
+  \field{series}{Graduate Texts in Mathematics}
+  \field{title}{Cohomology of groups}
+  \field{volume}{87}
+  \field{year}{1994}
+\endentry
+
+\entry{MR830038}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {McCarthy}{M.}%
+     {John~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJD1}
+  \strng{fullhash}{MJD1}
+  \verb{doi}
+  \verb 10.1007/BF01388732
+  \endverb
+  \field{issn}{0020-9910}
+  \field{number}{1}
+  \field{pages}{49\bibrangedash 71}
+  \field{title}{Automorphisms of surface mapping class groups. {A} recent
+  theorem of {N}. {I}vanov}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1007/BF01388732
+  \endverb
+  \field{volume}{84}
+  \field{journaltitle}{Invent. Math.}
+  \field{year}{1986}
+\endentry
+
+\entry{VogtmannKaren2002Gd}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Vogtmann}{V.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Kluwer Academic Publishers}%
+  }
+  \strng{namehash}{VK1}
+  \strng{fullhash}{VK1}
+  \field{issn}{0046-5755}
+  \field{number}{1}
+  \field{pages}{1\bibrangedash 31}
+  \field{title}{Geometriae dedicata}
+  \field{volume}{94}
+  \list{location}{1}{%
+    {[Dordrecht] :}%
+  }
+  \field{year}{2002}
+\endentry
+
+\entry{Nielsen1924}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nielsen}{N.}%
+     {Jakob}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NJ1}
+  \strng{fullhash}{NJ1}
+  \verb{doi}
+  \verb 10.1007/BF01556078
+  \endverb
+  \field{issn}{1432-1807}
+  \field{number}{3}
+  \field{pages}{169\bibrangedash 209}
+  \field{title}{Die Isomorphismengruppe der freien Gruppen}
+  \verb{url}
+  \verb https://doi.org/10.1007/BF01556078
+  \endverb
+  \field{volume}{91}
+  \field{journaltitle}{Mathematische Annalen}
+  \field{year}{1924}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{MR1769698}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bridson}{B.}%
+     {Martin~R.}{M.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vogtmann}{V.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BMRVK1}
+  \strng{fullhash}{BMRVK1}
+  \verb{doi}
+  \verb 10.1006/jabr.2000.8327
+  \endverb
+  \field{issn}{0021-8693}
+  \field{number}{2}
+  \field{pages}{785\bibrangedash 792}
+  \field{title}{Automorphisms of automorphism groups of free groups}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1006/jabr.2000.8327
+  \endverb
+  \field{volume}{229}
+  \field{journaltitle}{J. Algebra}
+  \field{year}{2000}
+\endentry
+
+\entry{MR2982242}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Meucci}{M.}%
+     {Erika}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ProQuest LLC, Ann Arbor, MI}%
+  }
+  \strng{namehash}{ME1}
+  \strng{fullhash}{ME1}
+  \field{isbn}{978-1267-01951-6}
+  \field{note}{Thesis (Ph.D.)--The University of Utah}
+  \field{pages}{118}
+  \field{title}{Relative outer automorphisms of free groups}
+  \verb{url}
+  \verb http://gateway.proquest.com.prx.library.gatech.edu/openurl?url_ver=Z39.
+  \verb 88-2004&rft_val_fmt=info:ofi/fmt:kev:mtx:dissertation&res_dat=xri:pqdis
+  \verb s&rft_dat=xri:pqdiss:3481941
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{MR2174267}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hatcher}{H.}%
+     {Allen}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wahl}{W.}%
+     {Nathalie}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HAWN1}
+  \strng{fullhash}{HAWN1}
+  \verb{doi}
+  \verb 10.2140/gt.2005.9.1295
+  \endverb
+  \field{issn}{1465-3060}
+  \field{pages}{1295\bibrangedash 1336}
+  \field{title}{Stabilization for the automorphisms of free groups with
+  boundaries}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.2140/gt.2005.9.1295
+  \endverb
+  \field{volume}{9}
+  \field{journaltitle}{Geom. Topol.}
+  \field{year}{2005}
+\endentry
+
+\entry{homstabout}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hatcher}{H.}%
+     {Allen}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vogtmann}{V.}%
+     {Karen}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HAVK1}
+  \strng{fullhash}{HAVK1}
+  \verb{doi}
+  \verb 10.2140/agt.2004.4.1253
+  \endverb
+  \field{issn}{1472-2747}
+  \field{pages}{1253\bibrangedash 1272}
+  \field{title}{Homology stability for outer automorphism groups of free
+  groups}
+  \verb{url}
+  \verb http://dx.doi.org.prx.library.gatech.edu/10.2140/agt.2004.4.1253
+  \endverb
+  \field{volume}{4}
+  \field{journaltitle}{Algebr. Geom. Topol.}
+  \field{year}{2004}
+\endentry
+
+\entry{MR3073931}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Handel}{H.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mosher}{M.}%
+     {Lee}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HMML1}
+  \strng{fullhash}{HMML1}
+  \verb{doi}
+  \verb 10.2140/gt.2013.17.1581
+  \endverb
+  \field{issn}{1465-3060}
+  \field{number}{3}
+  \field{pages}{1581\bibrangedash 1672}
+  \field{title}{The free splitting complex of a free group, {I}: hyperbolicity}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.2140/gt.2013.17.1581
+  \endverb
+  \field{volume}{17}
+  \field{journaltitle}{Geom. Topol.}
+  \field{year}{2013}
+\endentry
+
+\entry{pandit}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Pandit}{P.}%
+     {Suhas}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PS1}
+  \strng{fullhash}{PS1}
+  \verb{doi}
+  \verb 10.1216/RMJ-2014-44-6-2029
+  \endverb
+  \field{issn}{0035-7596}
+  \field{number}{6}
+  \field{pages}{2029\bibrangedash 2054}
+  \field{title}{The complex of non-separating embedded spheres}
+  \verb{url}
+  \verb http://dx.doi.org.prx.library.gatech.edu/10.1216/RMJ-2014-44-6-2029
+  \endverb
+  \field{volume}{44}
+  \field{journaltitle}{Rocky Mountain J. Math.}
+  \field{year}{2014}
+\endentry
+
+\entry{MR2239449}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Behrstock}{B.}%
+     {Jason}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Margalit}{M.}%
+     {Dan}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJMD1}
+  \strng{fullhash}{BJMD1}
+  \verb{doi}
+  \verb 10.1007/s10711-005-9022-3
+  \endverb
+  \field{issn}{0046-5755}
+  \field{pages}{71\bibrangedash 85}
+  \field{title}{Curve complexes and finite index subgroups of mapping class
+  groups}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1007/s10711-005-9022-3
+  \endverb
+  \field{volume}{118}
+  \field{journaltitle}{Geom. Dedicata}
+  \field{year}{2006}
+\endentry
+
+\entry{MR2318453}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Shackleton}{S.}%
+     {Kenneth~J.}{K.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SKJ1}
+  \strng{fullhash}{SKJ1}
+  \verb{doi}
+  \verb 10.2140/pjm.2007.230.217
+  \endverb
+  \field{issn}{0030-8730}
+  \field{number}{1}
+  \field{pages}{217\bibrangedash 232}
+  \field{title}{Combinatorial rigidity in curve complexes and mapping class
+  groups}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.2140/pjm.2007.230.217
+  \endverb
+  \field{volume}{230}
+  \field{journaltitle}{Pacific J. Math.}
+  \field{year}{2007}
+\endentry
+
+\entry{MR579573}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hatcher}{H.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thurston}{T.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HATW1}
+  \strng{fullhash}{HATW1}
+  \verb{doi}
+  \verb 10.1016/0040-9383(80)90009-9
+  \endverb
+  \field{issn}{0040-9383}
+  \field{number}{3}
+  \field{pages}{221\bibrangedash 237}
+  \field{title}{A presentation for the mapping class group of a closed
+  orientable surface}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1016/0040-9383(80)90009-9
+  \endverb
+  \field{volume}{19}
+  \field{journaltitle}{Topology}
+  \field{year}{1980}
+\endentry
+
+\entry{MR2599078}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Kent}{K.}%
+     {Richard~P.}{R.~P.}%
+     {}{}%
+     {IV}{I.}}%
+    {{}%
+     {Leininger}{L.}%
+     {Christopher~J.}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schleimer}{S.}%
+     {Saul}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KIRPLCJSS1}
+  \strng{fullhash}{KIRPLCJSS1}
+  \verb{doi}
+  \verb 10.1515/CRELLE.2009.087
+  \endverb
+  \field{issn}{0075-4102}
+  \field{pages}{1\bibrangedash 21}
+  \field{title}{Trees and mapping class groups}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1515/CRELLE.2009.087
+  \endverb
+  \field{volume}{637}
+  \field{journaltitle}{J. Reine Angew. Math.}
+  \field{year}{2009}
+\endentry
+
+\entry{MR2040283}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Margalit}{M.}%
+     {Dan}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MD1}
+  \strng{fullhash}{MD1}
+  \verb{doi}
+  \verb 10.1215/S0012-7094-04-12133-5
+  \endverb
+  \field{issn}{0012-7094}
+  \field{number}{3}
+  \field{pages}{457\bibrangedash 479}
+  \field{title}{Automorphisms of the pants complex}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1215/S0012-7094-04-12133-5
+  \endverb
+  \field{volume}{121}
+  \field{journaltitle}{Duke Math. J.}
+  \field{year}{2004}
+\endentry
+
+\entry{MR3415065}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bestvina}{B.}%
+     {Mladen}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bromberg}{B.}%
+     {Ken}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fujiwara}{F.}%
+     {Koji}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BMBKFK1}
+  \strng{fullhash}{BMBKFK1}
+  \verb{doi}
+  \verb 10.1007/s10240-014-0067-4
+  \endverb
+  \field{issn}{0073-8301}
+  \field{pages}{1\bibrangedash 64}
+  \field{title}{Constructing group actions on quasi-trees and applications to
+  mapping class groups}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1007/s10240-014-0067-4
+  \endverb
+  \field{volume}{122}
+  \field{journaltitle}{Publ. Math. Inst. Hautes \'Etudes Sci.}
+  \field{year}{2015}
+\endentry
+
+\entry{2016arXiv160801589G}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {{Gaster}}{G.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Greene}}{G.}%
+     {J.~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vlamis}}{V.}%
+     {N.~G.}{N.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Mathematics - Geometric Topology, Mathematics - Combinatorics, 57M15,
+  05C15}
+  \strng{namehash}{GJGJEVNG1}
+  \strng{fullhash}{GJGJEVNG1}
+  \verb{eprint}
+  \verb 1608.01589
+  \endverb
+  \field{title}{{Coloring curves on surfaces}}
+  \field{journaltitle}{ArXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{math.GT}
+  \field{month}{08}
+  \field{year}{2016}
+\endentry
+
+\entry{bridson}{unpublished}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bridson}{B.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BM1}
+  \strng{fullhash}{BM1}
+  \field{note}{Workshop on Mapping Class Groups and Out($F_n$). University of
+  Texas at Austin. Lecture}
+  \field{title}{Automorphisms of the Free Factor Complex}
+  \verb{url}
+  \verb http://www.math.uiuc.edu/~clein/modoutsched.html
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{doi:10.1112/jlms/s2-11.2.181}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {L.}{L.}%
+     {Dyer~Joan}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Edward}{E.}%
+     {Formanek}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LDJEF1}
+  \strng{fullhash}{LDJEF1}
+  \verb{doi}
+  \verb 10.1112/jlms/s2-11.2.181
+  \endverb
+  \verb{eprint}
+  \verb https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/jlms/s2-11.
+  \verb 2.181
+  \endverb
+  \field{number}{2}
+  \field{pages}{181\bibrangedash 190}
+  \field{title}{The Automorphism Group of a Free Group is Complete}
+  \verb{url}
+  \verb https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/jlms/s2-11.
+  \verb 2.181
+  \endverb
+  \field{volume}{s2-11}
+  \field{journaltitle}{Journal of the London Mathematical Society}
+\endentry
+
+\entry{MR3724237}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bowditch}{B.}%
+     {Brian~H.}{B.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BBH1}
+  \strng{fullhash}{BBH1}
+  \verb{doi}
+  \verb 10.2140/pjm.2018.293.1
+  \endverb
+  \field{issn}{0030-8730}
+  \field{number}{1}
+  \field{pages}{1\bibrangedash 73}
+  \field{title}{Large-scale rigidity properties of the mapping class groups}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.2140/pjm.2018.293.1
+  \endverb
+  \field{volume}{293}
+  \field{journaltitle}{Pacific J. Math.}
+  \field{year}{2018}
+\endentry
+
+\entry{MR3620458}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bowditch}{B.}%
+     {Brian~H.}{B.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BBH1}
+  \strng{fullhash}{BBH1}
+  \verb{doi}
+  \verb 10.1112/jtopol/jtw017
+  \endverb
+  \field{issn}{1753-8416}
+  \field{number}{4}
+  \field{pages}{985\bibrangedash 1020}
+  \field{title}{Large-scale rank and rigidity of the {T}eichm\"uller metric}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.1112/jtopol/jtw017
+  \endverb
+  \field{volume}{9}
+  \field{journaltitle}{J. Topol.}
+  \field{year}{2016}
+\endentry
+
+\entry{commensurations}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Brendle}{B.}%
+     {Tara~E.}{T.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Margalit}{M.}%
+     {Dan}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BTEMD1}
+  \strng{fullhash}{BTEMD1}
+  \field{issn}{1465-3060}
+  \field{number}{1}
+  \field{pages}{97\bibrangedash 101}
+  \field{title}{Addendum to: ``{C}ommensurations of the {J}ohnson kernel''
+  [{G}eom. {T}opol. {\bf 8} (2004), 1361--1384; MR2119299]}
+  \verb{url}
+  \verb https://doi-org.prx.library.gatech.edu/10.2140/gt.2008.12.97
+  \endverb
+  \field{volume}{12}
+  \field{journaltitle}{Geom. Topol.}
+  \field{year}{2008}
+\endentry
+
+\entry{kida}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kida}{K.}%
+     {Yoshikata}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KY1}
+  \strng{fullhash}{KY1}
+  \field{issn}{0025-5645}
+  \field{number}{2}
+  \field{pages}{363\bibrangedash 417}
+  \field{title}{Automorphisms of the {T}orelli complex and the complex of
+  separating curves}
+  \verb{url}
+  \verb http://projecteuclid.org.prx.library.gatech.edu/euclid.jmsj/1303737792
+  \endverb
+  \field{volume}{63}
+  \field{journaltitle}{J. Math. Soc. Japan}
+  \field{year}{2011}
+\endentry
+
+\entry{Schaefer2002}{inbook}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Schaefer}{S.}%
+     {Marcus}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sedgwick}{S.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\v{S}}tefankovi{\v{c}}}{{\v{S}}.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Ibarra}{I.}%
+     {Oscar~H.}{O.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Louxin}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Berlin Heidelberg}%
+  }
+  \strng{namehash}{SMSESD1}
+  \strng{fullhash}{SMSESD1}
+  \field{abstract}{%
+  We derive several algorithms for curves and surfaces represented using normal
+  coordinates. The normal coordinate representation is a very succinct
+  representation of curves and surfaces. For embedded curves, for example, its
+  size is logarithmically smaller than a representation by edge intersections
+  in a triangulation. Consequently, fast algorithms for normal representations
+  can be exponentially faster than algorithms working on the edge intersection
+  representation. Normal representations have been essential in establishing
+  bounds on the complexity of recognizing the unknot [Hak61, HLP99, AHT02], and
+  string graphs [SS{\v{S}}02]. In this paper we present efficient algorithms
+  for counting the number of connected components of curves and surfaces,
+  deciding whether two curves are isotopic, and computing the algebraic
+  intersection numbers of two curves. Our main tool are equations over monoids,
+  also known as word equations.%
+  }
+  \field{booktitle}{Computing and Combinatorics: 8th Annual International
+  Conference, COCOON 2002 Singapore, August 15--17, 2002 Proceedings}
+  \verb{doi}
+  \verb 10.1007/3-540-45655-4_40
+  \endverb
+  \field{isbn}{978-3-540-45655-1}
+  \field{pages}{370\bibrangedash 380}
+  \field{title}{Algorithms for Normal Curves and Surfaces}
+  \verb{url}
+  \verb https://doi.org/10.1007/3-540-45655-4_40
+  \endverb
+  \list{location}{1}{%
+    {Berlin, Heidelberg}%
+  }
+  \field{year}{2002}
+\endentry
+
+\entry{fastdehn}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Schaefer}{S.}%
+     {Marcus}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sedgwick}{S.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stefankovic}{S.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SMSESD2}
+  \strng{fullhash}{SMSESD2}
+  \field{booktitle}{Proceedings of the 20th Annual Canadian Conference on
+  Computational Geometry, CCCG 2008}
+  \field{title}{Computing Dehn Twists and Geometric Intersection Numbers in
+  Polynomial Time.}
+  \field{month}{01}
+  \field{year}{2008}
+\endentry
+
+\entry{MR2695693}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hamidi-Tehrani}{H.-T.}%
+     {Hessam}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ProQuest LLC, Ann Arbor, MI}%
+  }
+  \strng{namehash}{HTH1}
+  \strng{fullhash}{HTH1}
+  \field{isbn}{978-0591-37482-7}
+  \field{note}{Thesis (Ph.D.)--Columbia University}
+  \field{pages}{115}
+  \field{title}{Algorithms in the surface mapping class groups}
+  \verb{url}
+  \verb http://gateway.proquest.com.prx.library.gatech.edu/openurl?url_ver=Z39.
+  \verb 88-2004&rft_val_fmt=info:ofi/fmt:kev:mtx:dissertation&res_dat=xri:pqdis
+  \verb s&rft_dat=xri:pqdiss:9728211
+  \endverb
+  \field{year}{1997}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

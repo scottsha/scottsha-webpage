@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1529438867 "summary.tex" "/home/scott/Documents/thesis/summary.pdf" "summary" 1529438867
+  "/etc/texmf/web2c/texmf.cnf" 1499991779 1101 af7716885e081ab43982cab7b4672c1a ""
+  "/home/scott/Documents/thesis/summary.aux" 1529438861 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1503462742 3854607 77042dd59c5dbc052519d179512be3b8 ""
+  "summary.tex" 1528153078 732 8b955df12cec7f54f9e922d443ef20a7 ""
+  (generated)
+  "summary.log"
+  "/home/scott/Documents/thesis/summary.pdf"
+  "/home/scott/Documents/thesis/summary.log"

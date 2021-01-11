@@ -1,0 +1,174 @@
+\documentclass[11pt]{article}
+\usepackage{enumerate, comment}
+\usepackage{hyperref}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{ wasysym }
+\usepackage{ marvosym }
+\usepackage{ textcomp }
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{wrapfig}
+\usepackage{epigraph}
+%\usepackage[bottom=1.5in]{geometry}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Aut}[1]{\ensuremath{ \aaut \left (#1 \right ) }}
+\newcommand{\ins}[1]{\ensuremath{{#1}^{\mbox{in}}}}
+\newcommand{\outs}[1]{\ensuremath{{#1}^{\mbox{out}}}}
+\newcommand{\css}{\ensuremath{C_{ss} \left ( S_{g,p} \right) }}
+\newcommand{\cn}{\ensuremath{C_{n}}}
+\newcommand{\csn}{\ensuremath{C_{s,n}}}
+\newcommand{\csnk}{{\ensuremath{C_{s,n}^{(k)}}}}
+\newcommand{\outn}{{\ensuremath{ \oout(F_n)}} }
+\newcommand{\nosep}{{\ensuremath{ \mathcal S^{\mbox{\tiny{nonsep}}}_n }}}
+\newcommand{\coc}[1]{{\ensuremath{ \mathcal S^{\mbox{\tiny{coc}}}_{#1} }}}
+\newcommand{\coco}[1]{{\ensuremath{ \mathcal {S^{\mbox{\tiny{coc}}}}^{(0)}_{#1} }}}
+\newcommand{\ffn}{{\ensuremath{ \mathcal {FF}_n }}}
+\newcommand{\sfn}{{\ensuremath{ \mathcal {SF}_n }}}
+\newcommand{\sfno}{{\ensuremath{ \mathcal {SF}^{(0)}_n }}}
+
+\DeclareMathOperator{\oout}{Out}
+\DeclareMathOperator{\Mod}{Mod}
+\DeclareMathOperator{\aaut}{Aut}
+\DeclareMathOperator{\link}{link}
+\newcommand{\cev}[1]{\reflectbox{\ensuremath{\vec{\reflectbox{\ensuremath{#1}}}}}}
+
+
+\hypersetup{%https://preview.overleaf.com/public/hcstkvxftwfn/images/9aa75daac48baa3399aad3f640ea940279eb68d4.jpeg
+  colorlinks=true,% hyperlinks will be black
+  linkbordercolor=red,% hyperlink borders will be red
+  pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+}
+\title{2nd Try Free Factor Automorphisms}
+
+\begin{document}
+%\maketitle
+\begin{center}
+{The Automorphism Group of the Free Factor Complex is \outn}\\
+Shane Scott
+\end{center}
+
+Let $F_n$ be the rank $n\geq 3$ free group.
+The \emph{free factor complex} of $F_n$ gives a free group analogue to the Tits building.
+If $F_n$ can be expressed as the internal free product of subgroups $A,B \leqslant F_n$, then $A$ and $B$ are \emph{free factors} of $F_n$.
+The free factor complex $\mathcal {FF}_n$ is the simplicial complex with a $k$-simplex given by conjugacy classes of length $k+1$ chains of proper, nontrivial free factors.
+We take the convention that $\mathcal{FF}_k$ is empty for $k<2$ and an infinite disconnected set for $k=2$.
+The purpose of this note is to give a new proof of the following theorem of Bestvina and Bridson \cite{bridson}.\\
+\\
+\noindent \emph{Theorem 1.} (Bestvina--Bridson) For $n \geq 3$ the natural action gives an isomorphism $ \outn \stackrel{\cong}{\longrightarrow} \Aut{\ffn}$.\\
+
+Let $M_{n}$ be the connect sum of $n$ copies of  $S^1 \times S^2$, with the convention that $M_0 =S^3$.
+Fix an identification $F_n \stackrel{\cong}{} \pi_1(M_n,\ast)$.
+We will consider the simplicial complex $\nosep$ of embedded nonseparating spheres in $M_n$, where a collections of spheres spans a simplex if they can be homotoped to be disjoint. 
+When discussing spheres or submanifolds of $M_n$ below, we will always mean their homotopy classes.
+When discuss free factors below, we will always mean their conjugacy class.
+A result of Pandit \cite{pandit} shows that the nonseparating sphere complex has automorphism group $\oout(F_n)$.\\
+\\
+\emph{Theorem 2.} (Pandit) For $n \geq 3$ the natural action gives an isomorphism $ \outn \stackrel{\cong}{\longrightarrow} \nosep$.\\
+\\
+We construct an isomorphism $\Aut{\ffn} \to \Aut{\nosep}$ so that Theorem 1 follows from Theorem 2.\\
+\\
+Let $A \in \ffn$ be a vertex. We define the rank of $A$ to be the rank of the corresponding nontrivial, proper free factor of $F_n$.\\
+\\
+\noindent \emph{Lemma 3.} The link of a rank $k$ vertex of $\ffn$ is isomorphic to the simplicial join $\mathcal{FF}_{k} \ast \mathcal{FF}_{n-k}$.\\
+\\
+\noindent \emph{Proof.}
+Let $A$ be a rank $k$ vertex of $\ffn$.
+Then the vertices of the link of $A$ are the nontrivial, proper free subfactors and superfactors of $A$.
+The subfactors of $A$ form a complex $\mbox{link}_-(A)$ isomorphic to the free factors of $F_k$.
+Similarly, the superfactors of $A$ from a complex $\mbox{link}_+ (A)$ isomorphic to the free factors of $F_n/A \cong F_{n-k}$.\qed \\
+\\
+
+\noindent \emph{Lemma 4.} An automorphism $\phi \in \Aut \ffn$ preserves the rank of free factors.\\
+\\
+\noindent \emph{Proof.}
+We first demonstrate that the class of rank 1 free factors is preserved by $\phi$.
+Let $A$ be a rank 1 vertex of $\ffn$.
+By Lemma 3 the link of $A$ is isomorphic to $\mathcal{FF}_{n-1}$.
+Since the link of $\phi(A)$ is also isomorphic to $\mathcal{FF}_{n-1}$, it must be that $\phi(A)$ is either rank 1 or rank $n-1$.
+So the set $\mathcal E$ of rank 1 or $n-1$ vertices of $\ffn$ is invariant under $\phi$.
+We will show that vertex $E \in \mathcal E$ is rank $n-1$ if and only if there is a vertex in $\mathcal E$ at distance 4 from $E$ in $\ffn^{(1)}$.
+
+Consider the possible distances in $\mathcal {FF}_n$ between rank 1 and rank n-1 free factors. Let $A_1$ and $A_2$ be distinct rank 1 free factors. As $A_1 \ast A_2$ is a rank 2 free factor adjacent to both $A_1$ and $A_2$ we see that $A_1$ and $A_2$ are distance 2. 
+Let $B$ be a rank $n-1$ free factor. If $A_1 \leq B$ then $A_1$ and $B$ are distance 1. Otherwise if $A_1 \not \leq B$, they must be distance 3, since by transitivity of containment they cannot be distance 2, and $A_1$ is distance 2 from any rank 1 free subfactor of $B$. 
+Thus rank 1 vertices are never distance 4 from any vertex of $\mathcal E$.
+In contrast, the rank $n-1$ vertex $B$ is 
+Let $\alpha \in F_n-B$ be primitive, then $B \cap \alpha B =\varnothing$ so that $B$ and $\alpha B$ have no common subfactor and must be an even distance greater than 2. A length 4 path is given by $$B  \to \langle  \beta \rangle \to \langle \beta , \alpha \beta  \rangle \to \langle \alpha \beta \rangle \to  \alpha B$$ for any primitive $\beta \in B$.
+It follows that the set of rank 1 free factors is $\phi$ invariant.
+
+Suppose instead that $A$ is free factor of $F$ with rank $k$ such that  $1<k<n-1$.
+Then as in Lemma 3 we have
+$$\mbox{link} (A) = \mbox{link}_- (A)  \star \mbox{link}_+ (A)$$ 
+is isomorphic to $\mathcal{FF}_{k} \star \mathcal{FF}_{n-k}$.
+Since $\mbox{link}_- (A)$ contains the rank 1 subfactors of $A$, we have that 
+$$
+\mbox{link}_-  \left ( \phi(A)  \right ) 
+=
+\phi( \mbox{link}_- (A) )
+\cong \mathcal{FF}_k
+$$
+so that $\phi(A)$ must be rank $k$. \qed \\
+\\
+
+\noindent \emph{Lemma 5.} There is a bijection $\alpha$ between the conjugacy classes of rank $n-1$ free factors of $F_n$ and homotopy classes of nonseparating spheres of $M_n$.\\
+\\
+\noindent \emph{Proof.}
+Let $a \in \nosep$ be a nonseparating sphere of $M_n$.
+Then $\alpha(a)=\pi_1 (M_n-a,\ast)$ is a rank $n-1$ free factor of $F_n$.
+Conversely for an rank $n-1$ free factor $A \leq F_n$ there is a $\pi_1$-injective embedding of the rose $R_{n-1} \stackrel{R}\hookrightarrow M_n$ such that $\mbox{im } \pi_1(R) = A$. 
+Assume to the contrary that there exist distinct homotopy classes $a$ and $b$ of nonseparating spheres disjoint from $R$.
+By assigning orientations to $a$ and $b$ and counting intersections with curves, we obtain a pair of linearly independent first cohomology classes. But as $H_1(M_n;\Z)$ is rank $n$, it must be that either $a$ or $b$ intersect $A$, a contradiction. \qed\\
+\\
+Let $\phi \in \Aut{\ffn}$. 
+Then define $\hat \phi:\nosep \to \nosep$  by $\hat \phi= \chi^{-1} \circ \phi \circ \chi$. We will show that $\hat \phi$ is in fact an automorphism.\\
+\\
+\noindent \emph{Lemma 6.} For any $\phi \in \aaut (\ffn )$  $\hat \phi \in \aaut \left ( \nosep \right )$\\
+\\
+\noindent \emph{Proof.}
+We first demonstrate the $\hat \phi$ image of a pair of disjoint nonseparating spheres is a pair of disjoint nonseparating spheres.
+Suppose that $a,b \in \nosep$ are disjoint nonseparating spheres. Then $A=\pi_1 \left (M-(a\cup b),\ast \right )$ is a rank $n-2$ free factor and $A =\chi(a) \cap \chi(b)$.
+By Lemma 4 we have $\phi (\chi (a))$ and $\phi (\chi (b))$ are rank $n-1$ free factors both containing rank $n-2$ subfactor $\phi(A)$.
+Choose curves $\alpha_1, \ldots, \alpha_n$ giving a basis of $F_n$ such that 
+\begin{align*}
+\phi(\chi(a)) &=\langle \alpha_1, \ldots, \alpha_{n-1} \rangle\\
+\phi(\chi(b)) &=\langle \alpha_2, \ldots, \alpha_{n} \rangle\\
+\phi(A) &=\langle \alpha_2, \ldots, \alpha_{n-1} \rangle.
+\end{align*}
+Then the free splitting $F_n= \langle \alpha_1, \ldots, \alpha_{n-1} \rangle \ast \langle \alpha_{n} \rangle$ gives a separating sphere $x$ of $M_n$.
+Then $x$ separates $\hat \phi (a)$ from $\hat \phi (b)$ and they must be disjoint. 
+
+Since the $\hat \phi^{-1}$ image of a disjoint pair of spheres is a disjoint pair of spheres we must have that  the $\hat \phi$ image of pairs intersecting spheres are intersecting, so that $\hat \phi$ must be an automorphism.
+\qed \\
+\\
+\noindent \emph{Proof of Theorem 1.} For $n\geq 3$ we have $\aaut (\ffn) \cong \oout( F_n)$.
+\\
+Let $\Phi: \aaut \left ( \ffn \right ) \to  \aaut \left ( \nosep \right )$ be given by $\phi \mapsto \hat \phi$.
+We first show that $\Phi$ is injective.
+Let $\phi \in \ker \Phi$.
+Then let $A$ be a rank $k$ free factor of $F_n$.
+Choose a set $\Sigma$ of $n-k$ disjoint nonseparating spheres such that $A=\pi_1 (M-\cup_{a \in \Sigma} a,\ast)$.
+As $A= \cap_{a \in \Sigma} \chi (a)$ we have
+\begin{align*}
+\phi(A) &=  \cap_{a \in \Sigma}  \phi (\chi (a)) \\
+&= \pi_1 (M- \cup_{a \in \Sigma} \hat \phi(a), \ast)\\
+&= \pi_1 (M- \cup_{a \in \Sigma} a, \ast )\\
+&=A
+\end{align*}
+so that $\phi$ is the identity on $\ffn$.
+
+But $\Phi$ is also surjective since the natural action gives a surjective composition
+$$
+\oout (F_n) \to \aaut ( \ffn ) \to \aaut (\nosep) \cong \oout(F_n).
+$$
+\qed
+
+\nocite{*}
+
+\bibliography{spherecomplex}{}
+\bibliographystyle{plain}
+\end{document}

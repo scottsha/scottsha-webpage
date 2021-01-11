@@ -1,0 +1,192 @@
+% !TEX root = thesis.tex
+\chapter{Introduction}
+
+
+
+
+\section{Ivanov's Metaconjecture and Free Group Automorphisms}
+
+This thesis considers two parallel simplicial complexes.
+The first is the complex of curves in a surface.
+The second is the complex of spheres in 3-space with wormholes.
+Both are \emph{combinatorial models} for their respective spaces:
+any symmetry of the graph comes from a symmetry of the space itself.
+
+
+Studies of the mapping class group of a surface make critical use of the curve complex.
+The curve complex $\mathcal C S$ has homotopy classes of simple closed curves as vertices and with simplices for disjoint collections of curves.
+Harvey first defined the  curve complex $\mathcal C S$ in \cite{MR624817}
+ to describe a compactification of Teichm\"uller space and study the mapping class group action.
+In the follwing years, the curve complex itself has become \emph{the} space for mapping class group actions.
+Harer demonstrated the curve complex is simply connected \cite{MR786348}, and Masur and Minsky showed that it is $\delta$-hyperbolic \cite{MR1714338}, to the delight of Gromov-enthusiasts.
+Ivanov showed that the curve $\mathcal C S$ is an exact combinatorial model for
+the mapping class group;  the automorphism group of $\mathcal C S$ is the mapping class group \cite{MR1460387}.
+The resulting literary explosion of curve-complex rigidity results led Ivanov
+to propose his now infamous metaconjecture:
+
+\begin{metaconjecture}
+Every sufficiently rich object associated to a surface $S$ has as its group of automorphisms the mapping class group $\mcg^\pm S$.
+Moreover, this can
+be proved by a reduction to the theorem about the automorphisms of the curve complex $\mathcal C S$.
+\end{metaconjecture}
+
+
+
+The first statement of the metaconjecture is reasonable, natural, and just vague enough to leave no possibility of gainsay.
+The second part proved prophetic, %\footnote{self-fulfillingly so?}
+ as the literature has
+flourished with rigidity results that rely on the underlying automorphism group of the curve complex.
+We refer to Brendle and Margalit for a survey of such results \cite{meta}.
+Brendle and Margalit have made a heroic attempt to unify these results in \cite{meta}.
+There they show that the class of ``sufficiently rich objects'' includes any normal subgroup of a surface mapping class group containing an element with small support, and any connected simplicial complex of regions in $S$ that does not have pairs of ``exchangable'' vertices.
+
+
+Less is known about automorphisms of free groups than is known about mapping class groups,
+and some promising analogies between the two has translated geometric strategies of Thurston
+and others into strategies tackling the algebraic monster $\oout F$ of outer automorphisms of a free group $F$.
+Since finite graphs have a free group $F$ as their fundamental group,
+one analog suggests considering $\oout F$ as the mapping class of a graph, though homotopy equivalences must substitute for diffeomorphisms.
+Just as the mapping class group acts on the Teichm\"uller space of hyperbolic metrics,
+Culler and Vogtmann defined an \emph{outer space}  of metrics of graphs \cite{MR830040}.
+There are several contenders for a curve complex analog.
+Culler-Vogtmann outer space itself retracts to a spine whose simplicial automorphisms are given by  $\oout F$
+\cite{vogt}.
+Hatcher and Vogtmann suggested the poset of free factors \cite{MR1660045}, and Hatcher also considered the complex of free splittings \cite{MR1314940}.
+
+A more direct geometric analog of the curve complex is given by the complex of spheres in 3-space with wormholes.
+By removing open balls of $S^3$ and identifying boundary spheres to form wormholes, we can obtain a manifold $M$ with free fundamental group $F$.
+According to
+Laudenbach the diffeomorphism of $M$ (up to homotopy) contains $\oout F$ as a finite index subgroup \cite{MR0314054}.
+In fact the complex of free splittings of $F$ is naturally isomorphic to the sphere complex $\mathcal S$ of $M$,
+with the spheres of $M$ specifying conjugacy classes of splittings of $\pi_1(M)=F$
+via
+Van Kampen's Theorem.
+Aramayana and Souto proved that the automorphism group of the sphere complex $\mathcal S$ is in fact $\oout F$ \cite{souto},
+by showing that automorphisms of $\mathcal S$ biject equivariantly to automorphisms of Culler-Vogtmann outer space.
+The analog with curves of a surface can be seen more concretely by considering a subsurface of $M$ that tunnels
+through the wormholes. In minimal position, spheres are specified by curves of the surface.
+This suggests a route to proof of $\oout F$ theorems and an $\oout F$ analog to Ivanov's metaconjecture:
+when a proof calls for curves of a surface $S$, consider instead corresponding spheres of $M$.
+
+This will be our major strategy.
+Here we advance the goal of an $\oout F$ analog to the Brendle-Margalit theorem, considering the following question:
+
+\begin{question}
+  What combinatorial objects associated to a free group $F$ have as their group of automorphisms
+  the outer automorphism group $\oout F_n$, and when can this
+  be proved by a reduction to the theorem about the automorphisms of Culler-Vogtmann outer space?
+\end{question}
+The results herein all adhere to this reduction by passing through the complex $\mathcal S$ of spheres in $M_n$.
+We consider this a particular incarnation of Margalit and Brendle's generalized metaconjecutre.
+\begin{metaconjecture}
+  Suppose that $X$ is a nice space. Every object naturally associated to $X$ and having sufficiently
+  rich structure has $\oout \pi_1(X)$ as its group of automorphisms.
+\end{metaconjecture}
+
+\section{Outline of Results}
+
+The novel technical results presented here are largely $\oout F$ analogs to theorems regarding the curve complex.
+We divide these results into three chapters.
+Chapter \ref{chap:birman} considers the role of point pushing and the Birman exact sequence in the complex of curves of a surface and in the complex of spheres in $M$.
+Chapter \ref{chap:furout} considers some subcomplexes of the sphere complex whose automorphism group is $\oout F$.
+Chapter \ref{chap:strongsep} considers low complexity cases for the complex of strongly separating spheres.
+
+\subsection{Birman Point Pushing}
+
+In Chapter \ref{chap:birman}
+we consider how adding or removing punctures affects the curve complex or the complex of spheres.
+In Section \ref{sect:curvepunc} we reprove the known result
+\begin{restatable}{theorem}{thmaddpunc}
+  \label{thm:addpunc}
+  Let $S_{g,p}$ be the orientable genus $g$ surface with $p$ punctures.
+  If the natural map
+  $$
+  \mcg^\pm S_{g,p} \to  \aaut \mathcal C S_{g,p}
+  $$
+  is an isomorphism, then so is
+  $$
+  \mcg^\pm S_{g,p+1} \to  \aaut \mathcal C S_{g,p+1}.
+  $$
+\end{restatable}
+We do so by a new method considering the role of the Birman exact sequence for point pushing in the complex of curves.
+The proof follows the following outline.
+\begin{enumerate}
+  \item For each puncture $q$ there is a puncture-forgetting projection map $\rho_q: \mathcal C S_{g,p+1} \to \mathcal C S_{g,p}$
+  that parallels the Birman exact sequence for the mapping class group $\mcg S_{g,p}$,
+  so that automorphisms which preserve the fibration of $\rho_q$ must arise from mapping classes.
+  \item The fibers of the projection $\rho_q$ are subtrees of $\mathcal C S_{g,p}$,
+  with the projection $\rho_q$ collapsing edges between curves that cobound punctured annuli.
+  \item The punctured annuli biject to an arc complex of $S_{g,p}$, which we show to be uniquely colored (in the graph-theoretic sense)
+  by the punctures of the surface $S_{g,p}$ so that the fibers of the projection $\rho_q$ for various punctures $q$ biject to the
+  coloring partition of the arc complex
+  \item Automorphisms of $\mathcal C S_{g,p}$ act by automorphism on this arc complex,
+  so that the arc complex coloring, and thus the fibers of $\rho_q$, are maintained.
+  % \item We conclude that the automorphism group $\aaut \mathcal C S_{g,p}$ satisfies a Birman exact sequence.
+\end{enumerate}
+
+The main result of Section \ref{sect:spherepunc} uses an analogous proof.
+We show that
+\begin{restatable}{theorem}{outpunc}
+  The natural map
+  $\oout_{n,p} \to \aaut \mathcal S_{n,p}$ is an isomorphism for $n\geq 3$ and $p \geq 0$.
+\end{restatable}
+where $\oout_{n,p}$ is a relative outer automorphism group and $\mathcal S_{n,p}$ is the complex of spheres in
+the punctured manifold $M_{n,p}$ with $n$ ``wormholes'' and $p$ punctures.
+The proof is fully analogous to the surface case.
+Automorphisms of $\mathcal S_{n,p}$ are shown to respect the fibration of a point-forgetting projection,
+so that the proof reduces to considering automorphisms of the sphere complex $\mathcal S$ of $M$.
+
+\subsection{Further Out}
+
+In Chapter \ref{chap:furout}
+we consider subcomplexes and associated complexes of the sphere complex.
+The main technique of these proofs is to
+extend automorphisms from a subcomplex $\mathcal S'$ of $\mathcal S$ to the full sphere complex
+by finding a combinatorial characterization of spheres absent from $\mathcal S'$.
+Typically this is a \emph{sharing pair} of spheres in $\mathcal S'$
+ that intersect in minimal position to
+ bound spheres of $\mathcal S$.
+ In Section
+ \ref{sect:sepspheres} we prove
+ \begin{restatable}{theorem}{thmsepspheres}
+   The natural map $\oout (F_n) \to \aaut \mathcal S^{sep}_n $
+   is an isomorphism for $n \geq 3$.
+   \label{thm:sep}
+ \end{restatable}
+ The proof works by extending automorphism of the separating spheres complex to the nonseparating spheres by observing that
+ small separating spheres contain a unique nonseparating sphere.
+In Section
+ \ref{section:highgenussep}
+ we prove
+ \begin{restatable}{theorem}{thmhighsep}
+   \label{thm:highsep}
+   For  $n\geq 3k$,
+   the natural map
+    $\oout F_n \to \aaut  \mathcal S^{sep,k}_n$
+    is an isomorphism.
+ \end{restatable}
+ where $\mathcal S^{sep,k}_n$ is the complex of spheres freely splitting
+ the rank $n$ free group $\pi(M_n)=F_n$ into factors of rank at least $k$.
+ The proof is by a sharing pair extension proceeding inductively on the rank $k$.
+
+ In Section \ref{section:ffc}
+ we prove the free factor complex $\ffn$ is also a combinatorial model.
+ \begin{restatable}{theorem}{bridson}
+   For  $n\geq 3$,
+   the natural map
+    $\oout F_n \to \aaut  \ffn$
+    is an isomorphism.
+    \label{thm:bridson}
+ \end{restatable}
+
+
+\subsection{Strongly Separating Curves}
+
+In Chapter \ref{chap:strongsep} we consider the
+complex of strongly separating curves.
+A curve is strongly separating if it is separating but does not bound a twice punctured disk of $S_{g,p}$.
+In \cite{bowditch} Bowditch shows that the automorphisms of
+$\css S_{g,p}$ are induced by the mapping class group $\mcg^\pm S_{g,p}$ in all but finitely many cases, and asks whether this is true of the remaining few.
+In Section \ref{sect:strongpoint} we use the point-forgetting
+projection techniques of Chapter \ref{chap:birman} to obtain a few remaining cases.
+In Section \ref{sect:leftovers} we give computational evidence for the undecided cases.

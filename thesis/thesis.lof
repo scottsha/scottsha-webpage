@@ -1,0 +1,121 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The complete bipartite graph $K_{1,3}$ and the triangle $K_3$ are the only simple graphs are not isomorphic yet have an incidence preserve bijection of edges. \relax }}{8}{figure.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The manifold $M_{n,p}$ can be contained from $S^3$ by deleting the interior of $2n+p$ balls then identifying $n$ pairs of spheres via the antipodal map.\relax }}{20}{figure.caption.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces A maximal collection of disjoint curves bounding disks in the handlebody. The prescribed doubling gives spheres of $M_3$ specifying a maximal simplex of the sphere complex $\mathcal S_3$. \relax }}{20}{figure.caption.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A maximal collection of disjoint spheres of $S^3$ with spheres removed. The prescribed gluing gives spheres of $M_3$ specifying a maximal simplex of the sphere complex $\mathcal S_n$. \relax }}{20}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Identifying the two copies of a handlebody along their boundary obtains $M_n$ and glues disks into spheres. Disks differing by Dehn twists about curves bounding disks in the handlebody glue to the same sphere. \relax }}{21}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Pushing $x^-_{a_1}$ through $x^-_{a_2}$ induces the transvection $a_1 \DOTSB \mapstochar \rightarrow a_1a_2$ on the fundamental group $\pi _1$. \relax }}{23}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The sphere for the splitting $\left \delimiter "426830A a_1^{-1}a_2^4 \right \delimiter "526930B \ast \left \delimiter "426830A a_2,a_3 \right \delimiter "526930B $ in Hatcher normal form with respect to the maximal collection $\{a_1,a_2,a_3,x,y,z\}$ in $M_3$. \relax }}{24}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An edge bijection preserving incidence may not be an isomorphism for multigraphs. A self-loop might swap with a multiedge if the multiedge is not incident to additional edges.\relax }}{27}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces (Top) Two nonisomorphic region adjacency graphs can be exchanged by an automorphism of $\mathcal C_{1,2}$, though the edge incidence relation is preserved. (Bottom) Such an automorphism of $\mathcal C S_{1,2}$ corresponds via hyperelliptic involution to a homeomorphism of $S_{0,5}$.\relax }}{28}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A color forcing path between nests parallel to disjoint curves.\relax }}{35}{figure.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Two paths of simplices forcing a coloring between nests parallel to intersecting curves. ``Pack'' curves on one boundary component of the nest into curves surrounding punctured disks, then unpack them parallel to a different curve of the unpunctured surface. Repeat this with the other boundary component of the nest. \relax }}{36}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces A base collection of parallel nonseparating loops, as in a nest.\relax }}{37}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces A base collection of mostly parallel loops in the punctured sphere.\relax }}{37}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Case 1: The half-twist $h$ is about an arc $\alpha $ in an annulus between $x_i$ and $x_{i+1}$ and disjoint from the other loops of $X$, as in the top left. The lower right shows $h(x_1)$, $h(x_2)$, and $h(x_3)=x_3$. Then if $f(x_i)=p_i$ the sequence of curve replacements shows that $f(h(x_i))=p_i$. \relax }}{38}{figure.caption.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Case 2: The half-twist $h$ is about an arc $\alpha $ $x_i$ and $x_{i+1}$ and disjoint from the other loops of $X$, where $x_i$ and $x_{i+1}$ intersect twice. We may assume the configuration on the left and note that $h(x_2)=x_3$, so that $f(h(x_3))$ must be $p_2$.\relax }}{38}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Case 3: The half-twist $h$ is about arc $\alpha $ between disjoint curves $x_i$ and $x_{i+1}$, and $\alpha $ intersects other curves of $X$. We may assume the configuration on the top left. Then the image of $h$ is shown in the bottom right. Note that by Case 1, $f(h(x_3))=p_3$ and $f(h(x_4))=p_4$ so that we need only determine $f(h(x_1))$ and $f(h(x_2))$. \relax }}{38}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Case 4: The Dehn twist $h=T_z$ about a nonseparating curve that links with the loops of $X$. We may assume the configuration of $X$ and $z$ as in the top left. The image $T_z(X)$ is shown in the bottom right. In the top row: Replace $x_1$ and $x_2$ with $\alpha _{1,2}$ so that $f(\alpha _{12})=\{p_1,p_2\}$. Then iteratively replace $x_k$ with the loop $y_k$ separating $\alpha _{1,2},y_3, \ldots , y_{k-1}$ from the other punctures, so that $f(y_k)=p_k$ for $k=3,\ldots ,p$. Then replace $y_k$ with $h(x_k)$ so that $f(T_z(x_k))=p_k$ for $k=p, \ldots , 3$. A similar process reversing the order of the punctures as in the bottom row shows $f(T_z(x_k))=p_k$ for $k=1,\ldots ,p-2$. \relax }}{39}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces A nest of $p$ pointed spheres requires $p$ distinct colors.\relax }}{48}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces A $\sigma $-nest forces a coloring on $\sigma ^b_1\sigma $ nest for transposition $\sigma ^a_1$.\relax }}{49}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces A $\sigma $-nest forces a coloring on $\sigma ^b_1\sigma $ nest for transposition $\sigma ^b_1$.\relax }}{50}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Two sequences together show the nest $V$ forces a coloring on $\iota _1V$.\relax }}{51}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces The nest $V$ forces a coloring on $\tau _{12}V$.\relax }}{51}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Nontrivial $\oout _{n,p}$ generator actions on the base sphere $v$ move $v$ at most distance 2 in $\mathcal S^{sep}_{n,p}$.\relax }}{56}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The sharing pair $x$ and $x'$ bound $M_{1,1}$ shown in yellow and orange. They are contained in the green $M_{2,1}$ bounded by $y$. The blue $M_{1,1}$ is bounded by $z$. Observe an $M_{1,1}$-bounding sphere containing $a_1$ can be represented by drawing two parallel copies $a^+_1$ and $a^-_1$ and then connecting them by attaching a handle given by the regular neighborhood of an arc from $a_1^-$ to $a^+_1$ disjoint from $a_1$. Fixing $a_1$, the spheres $x$ and $x'$ are determined by their respective intersection numbers with $a_2$. \relax }}{58}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A maximal dimension maximal simplex of $\mathcal S^{sep,k}_{n}$ for $k>1$ is spanned by $n-2k+1$ spheres and cuts $M_n$ into 2 copies of $M_{k,1}$ and $n-2k$ copies of $M_{1,2}$. The corresponding graph of $M_{n}$ components is an unbranched tree with 2 leaves of weight $k$ and $n-2k$ internal vertices of weight 1.\relax }}{61}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A minimal dimension maximal simplex of $\mathcal S^{sep,k}_{n}$ for $k>1$ is spanned by $2q+r-3$ spheres and cuts $M_n$ into $q$ copies of $M_{k,1}$ and $r$ copies of $M_{1,2}$ and $q-2$ copies of $M_{0,3}$. The corresponding graph of $M_{n}$ components is a tree with $q$ leaves of weight $k$ and $q-2$ internal vertices weight 0 and $r$ internal vertices of weight 1.\relax }}{61}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Nontrivial $\oout _{n}$ generator actions on the base sphere $v$ move $v$ at most distance 2 in $\mathcal S^{sep,k}_{n,p}$.\relax }}{62}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Nontrivial $\oout _{n,p}$ generator actions on the base sphere $v$ move $v$ at most distance 2 in $\mathcal S^{sep,k}_{n,p}$.\relax }}{63}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A sharing pair and the requisite carvings. The pair $\{x_0,x_1\}$ is shown bounding dark and light orange, respectively. The pair shares the $M_{k-1,1}$-bounding sphere $x$ shown bounding red. The pair is engulfed by $M_{k+1,1}$-bounding sphere $y$ shown in yellow. Dark orange $x_0$ is carved by $v_0$ and $w_0$ shown in dark green and blue. Light orange $x_1$ is carved by $v_1$ and $w_1$ shown in light green and blue. \relax }}{68}{figure.caption.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The sharing pair $v$ is formed by the green $x_1$ and orange $x_0$ spheres. Transpositions move the sharing pair $v$ either distance 0 in $\mathcal P_x$, by swapping orange and green, or distance 1, by, for example, swapping orange and yellow. Observe that the orange, yellow, and green $M_{k,1}$-bounding spheres form a sharing triple for the blue sphere $x$.\relax }}{70}{figure.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The chosen transvection moves $v$ distance 2 in $\mathcal P_x$. Observe that $x_0$ orange, $x_1$ light green, $x_2$ dark green, and $t'(x_0)$ yellow can be organized into two sharing triples: orange with the greens and yellow with the greens.\relax }}{71}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The manifold $M_n|\{a_i\}_{i=1}^n$ is a 3-sphere with $2n$ balls removed. We obtain $M_n$ by again identifying the spheres with $+$ and $-$ labels via a vertical reflection. The spheres $\Sigma '=\{x_i,y_i\}_{i=1}^4$ are such that $M_n|\Sigma '$ contains $x$ and $y$ in disjoint copies of $M_{0,4}$. The $M_{0,4}$ containing $x$ (identify $x^+$ and $x^-$) is shaded. The $M_{0,4}$ containing $y$ is the exterior of $y_2$ and $y_3$. \relax }}{76}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A maximal simplex and the region adjacency graph.\relax }}{84}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A maximal simplex and the region adjacency graph.\relax }}{84}{figure.caption.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces A maximal simplex and the region adjacency graph.\relax }}{85}{figure.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces A maximal simplex and the region adjacency graph.\relax }}{85}{figure.caption.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces (Top) A maximal simplex of submaximal dimension has multiple curves bounding 3-punctured disks. (Bottom) Replacing curves bounding a 3-punctured disk with a pair of curves results in a simplex of higher dimension.\relax }}{86}{figure.caption.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces A color forcing sequence between two parallel loops and their braid.\relax }}{92}{figure.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces A base nest of strongly separating curves.\relax }}{92}{figure.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces The mapping class group is generated by Dehn twists about these nonseparating curves and braiding about the vertebrae of the nest, shown in red.\relax }}{93}{figure.caption.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces A nest forces a coloring on its image under braids about the vertebrae of the nest.\relax }}{93}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The loops of $V$ force a coloring on their image $T_\alpha \cdot V$ under the Dehn twist $T_\alpha $ by considering color forcing sequence passing through loops contained in $p$-punctured disks of $S_{2,p}$.\relax }}{94}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces (Left) A sharing pair. (Right)Curves for twists generating $\mcg $.\relax }}{96}{figure.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces (Left) Braiding points about a minimally intersect arc $\beta $ moves $v$ disjointly from an $S_{1,1}$. (Right) A twist about a nonseparating arc intersecting one curve of the sharing pair. The resulting sharing pair is distance 2 from $v$.\relax }}{96}{figure.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces (Left) A half twist about the green curve and twists about the blue generate $\mcg S_{g,p}$. (Right) Any two of these are a sharing pair.\relax }}{97}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces (Top) A sharing pair and a generating set. (Middle,Bottom) The images of sharing pair $v$ under generators are contained with $v$ in the complement of an $S_{1,1}$.\relax }}{98}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces (Right) A set of nonseparating curves whose Dehn twists generate the mapping class group fixing $z$. (Left)A sharing pair.\relax }}{99}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces A length 5 path in $\mathcal P'_z$ that contains the image of $v$ under $H$. In the top row there are sharing pairs, giving vertices of $\mathcal P'_z$. In the bottom row are $S_{1,1}$s disjoint from both sharing pairs above, giving edges of $\mathcal P'_z$. \relax }}{99}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Two 3-punctured disks in a 4-punctured disk that share all three punctures. The 3-punctured disk $x_1$ has arcs outside of the 3-punctured disk $x_0$ parallel to the boundary of $y_0$.\relax }}{102}{figure.caption.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.18}{\ignorespaces The standard octagon in $\ensuremath { \mathcal C^{{ss}} }S_{1,4}$. The octagon consists of the 8 punctured disks around the outside. Representing arcs are shown in the middle.\relax }}{103}{figure.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.19}{\ignorespaces A traingulation of the surface $S_{1,4}$.\relax }}{107}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.20}{\ignorespaces The curves (1,0,1,0,2,2,0,2,2,1,2,1) and (0,2,2,0,2,2,0,2,2,2,2,2) are disjoint so span an edge of $\ensuremath { \mathcal C^{{ss}} }S_{1,4}$.\relax }}{108}{figure.caption.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.21}{\ignorespaces The standard octagon represented in normal coordinates.\relax }}{109}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.22}{\ignorespaces An octagon with point configuration $(p_0,p_3,p_0,p_3)$ represented in normal coordinates. \relax }}{109}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.23}{\ignorespaces An octagon with point configuration $(p_3,p_3,p_2,p_2)$ represented in normal coordinates. Note the top-left three curves and the bottom-right three curves differ by the Dehn twist $T^2_{e_6}$.\relax }}{110}{figure.caption.57}
