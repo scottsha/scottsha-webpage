@@ -1,0 +1,9 @@
+title,icon,link,description,type
+The Yellow Pince-nez,sq_icons/yellow_sq.svg,yellow_gui.html,A simple puzzle game and solver generalizing the Yellow Monocle.,working
+Lectures in Combinatorics,sq_icons/icosahedral_group_sq.svg,teach/3012spring18/math3012.html,Lectures in Combinatorics,lecture
+Thesis Defense,sq_icons/thesis_definse_sq.svg,pres_n_post/thesisdefense.svg,Combinatorial Models for Free and Surface Groups,lecture
+Thesis,sq_icons/thesis_sq.svg,thesis.pdf,Combinatorial Models for Surface and Free Group Symmetries,paper
+Tubular Parametrization,sq_icons/vein_sq.svg,pres_n_post/llnltp.pdf,Tubular Parametrization for Vascular Geometry,poster
+Tubular Parametrization,sq_icons/tube_sq.svg,pres_n_post/llnl_nsf.pdf,Tubular Parametrization for Vascular Geometry,paper
+Moduli Space,sq_icons/moduli_space.svg,pres_n_post/modulispace.svg,Lecture on the Moduli space of Algebraic Curves,lecture
+Sozi for Topology Students,sq_icons/sozi_icon.svg,inkscape_and_sozi_sozi/inkscape_and_sozi.svg,Features for avoiding Beamer,lecture
