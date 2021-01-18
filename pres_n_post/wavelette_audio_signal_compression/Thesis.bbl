@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{chui}
+Charles~K. Chui.
+\newblock {\em An introduction to wavelets}.
+\newblock Academic Press Professional, Inc., San Diego, CA, USA, 1992.
+
+\bibitem{frazier}
+Michael Frazier.
+\newblock {\em {An introduction to wavelets through linear algebra}}.
+\newblock Springer, 1999.
+
+\bibitem{rudin}
+Walter Rudin.
+\newblock {\em Principles of mathematical analysis}.
+\newblock McGraw-Hill Book Co., New York, third edition, 1976.
+\newblock International Series in Pure and Applied Mathematics.
+
+\bibitem{tao}
+Terence Tao.
+\newblock {\em {An epsilon of room. I: Real analysis. Pages from year three of
+  a mathematical blog.}}
+\newblock {Graduate Studies in Mathematics 117. Providence, RI: American
+  Mathematical Society (AMS) }, 2010.
+
+\end{thebibliography}
