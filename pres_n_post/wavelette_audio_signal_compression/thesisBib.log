@@ -1,0 +1,24 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdftex 2011.11.11)  3 MAY 2012 23:56
+entering extended mode
+**C:/Users/Scott/Documents/School/Wavelettes/Thesis/thesisBib.bib
+(C:/Users/Scott/Documents/School/Wavelettes/Thesis/thesisBib.bib
+Overfull \hbox (11.71826pt too wide) in paragraph at lines 16--26
+[]\tenrm @bookfrazier, au-thor = Fra-zier, Michael, citeulike-article-id = 7371
+508, isbn = 0387986391, 9780387986395,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm b
+.\kern0.27779
+.\tenrm o
+.etc.
+
+)
+*
+! Emergency stop.
+<*> ...ents/School/Wavelettes/Thesis/thesisBib.bib
+                                                  
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

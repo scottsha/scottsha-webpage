@@ -1,0 +1,24 @@
+title,icon,link,description,type,reference,gitlink
+Divergent3D,sq_icons/d3d.jpeg,https://www.divergent3d.com/,Divergent 3D: Additive Manufacturing,working,,
+The Yellow Pince-nez,sq_icons/yellow_sq.svg,yellow_gui.html,A simple puzzle game and solver generalizing the Yellow Monocle.,working,,https://github.com/scottsha/yellowpincenez
+Defense: Combinatorial Models for Surface and Free Group Symmetries,sq_icons/thesis_definse_sq.svg,pres_n_post/thesisdefense.svg,Combinatorial Models for Free and Surface Groups,lecture,,
+Thesis: Combinatorial Models for Surface and Free Group Symmetries,sq_icons/thesis_sq.svg,https://smartech.gatech.edu/handle/1853/60722,Combinatorial Models for Surface and Free Group Symmetries,paper,"Combinatorial models for surface and free group symmetries. PhD diss., Georgia Institute of Technology, 2018, hdl.handle.net/1853/60722.",https://github.com/scottsha/torus4punc
+Lectures in Combinatorics,sq_icons/icosahedral_group_sq.svg,teach/3012spring18/math3012.html,Lectures in Combinatorics,lecture,,
+Poster: Tubular Parametrization,sq_icons/vein_sq.svg,pres_n_post/llnltp.svg,Tubular Parametrization for Vascular Geometry,poster,,https://github.com/scottsha/minorcurvature
+Paper: Tubular Parametrization,sq_icons/tube_sq.svg,pres_n_post/llnl_nsf.pdf,Tubular Parametrization for Vascular Geometry,writing,,
+Minimal Graph Embeddings,sq_icons/edgeicso.gif,https://github.com/scottsha/surf-embed,Processing graphic for minimal energy graph embeddings,working,,https://github.com/scottsha/surf-embed
+Lecture: Moduli Space of Curves,sq_icons/moduli_space.svg,pres_n_post/modulispace.svg,Lecture on the Moduli space of Algebraic Curves,lecture,,
+Lecture: Sozi for Topology Students,sq_icons/sozi_icon.svg,inkscape_and_sozi_sozi/inkscape_and_sozi.svg,Features for avoiding Beamer,lecture,,
+Paper: N-loop Knot Invariant,sq_icons/hyperbolic_tet.svg,https://arxiv.org/pdf/1503.02554v2.pdf,Invariants in three manifolds,paper,"Exact computation of the n-loop invariants of knots. Experimental Mathematics. 25. 2 (2016). Garoufalidis, Sabo,
+and Scott.",
+Lecture: HIV In-Host Out-Host Interaction Models,sq_icons/hiv_model.svg,pres_n_post/hiv_host_interaction.pdf,HIV In-Host Out-Host Interaction Models,lecture,,
+Lecture: Wavelettes for Sound Compression,sq_icons/wavelette_sq.svg,pres_n_post/wavelette_audio_signal_compression/Presentation.pdf,Wavelettes for sound compression,lecture,,
+Paper: Ternary Pattern Avoidance,sq_icons/pigeon_sq.svg,https://link.springer.com/chapter/10.1007/978-3-642-35926-2_23,Pattern avoidance in partial words,paper,"Computing the partial word avoidability indices of ternary patterns. Combinatorial Algorithms. IWOCA (2012). Lecture Notes in Computer Science, vol 7643. Springer, Berlin, Heidelberg. Blanchet-Sadri, Lohr, and Scott.",
+Paper: Binary Pattern Avoidance,sq_icons/pigeon_sq.svg,https://www.sciencedirect.com/science/article/pii/S1570866713000440,Pattern avoidance in partial words,paper,"Computing the partial word avoidability indices of binary patterns. Journal of Discrete Mathematics 23 (2013). Blanchet-Sadri, Lohr, and Scott.",
+Lecture: Pattern Avoidance in Partial Words,sq_icons/pigeon_sq.svg,pres_n_post/pattern_avoidance_in_partial_words.pdf,Pattern avoidance in partial words,lecture,,
+Paper: Delay Control in Attosecond Pump-Probe Experiments,sq_icons/Finteract.jpeg,https://www.osapublishing.org/oe/abstract.cfm?uri=oe-17-24-21459,Attosecond optics,paper,"Delay control in attosecond pump-probe experiments. Optical Express 17.24 (2009). Chini, Mashiko, Wang, Chen, Yun, Scott, Gilbertson, and Chang.",
+Lecture: Fourier for Image Processing,sq_icons/wavelette_sq.svg,pres_n_post/digital_image_processing.pdf,Image Processing,lecture,,
+,,pres_n_post/noboundaries.svg,,poster_n,,
+,,pres_n_post/hmsc2017.svg,,poster_n,,
+,,pres_n_post/queen_of_the_sciences.svg,,poster_n,,
+,,pres_n_post/hmsc2015.svg,,poster_n,,
