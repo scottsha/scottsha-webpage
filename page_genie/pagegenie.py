@@ -89,7 +89,7 @@ class Genie:
         return a
 
     def conjure_contents(self):
-        gridshape = 2
+        gridshape = 3
         vis_tome = self.tome[self.tome['type']!='poster_n']
         #
         a = Airium()

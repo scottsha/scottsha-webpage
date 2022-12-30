@@ -1,5 +1,9 @@
 title,icon,link,description,type,reference,gitlink
+Thangs,sq_icons/thangs_logo.svg,https://www.thangs.com/,Geometry search engine,employed,""
+Physna,sq_icons/physna_logo.svg,https://www.physna.com/,Geometry search engine,employed,""
 The Yellow Pince-nez,sq_icons/yellow_sq.svg,yellow_gui.html,A simple puzzle game and solver generalizing the Yellow Monocle.,working,,https://github.com/scottsha/yellowpincenez
+Czinger,sq_icons/czinger_car.png,https://www.czinger.com/,3D printed car,employed,""
+Divergent 3D,sq_icons/d3d_logo.svg,https://www.divergent3d.com/,3D printing manufacturing,employed,""
 Lectures in Combinatorics,sq_icons/icosahedral_group_sq.svg,teach/3012spring18/math3012.html,Lectures in Combinatorics,lecture,,
 Defense: Combinatorial Models for Surface and Free Group Symmetries,sq_icons/thesis_definse_sq.svg,pres_n_post/thesisdefense.svg,Combinatorial Models for Free and Surface Groups,lecture,,
 Thesis: Combinatorial Models for Surface and Free Group Symmetries,sq_icons/thesis_sq.svg,https://smartech.gatech.edu/handle/1853/60722,Combinatorial Models for Surface and Free Group Symmetries,paper,"Combinatorial models for surface and free group symmetries. PhD diss., Georgia Institute of Technology, 2018, hdl.handle.net/1853/60722.",https://github.com/scottsha/torus4punc
