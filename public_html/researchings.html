@@ -6,9 +6,17 @@
   <link href="css/foundation.css" rel="stylesheet" />
   <script src="js/vendor/modernizr.js"></script>
   <link href="tenta.ico" rel="shortcut icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
-  <iframe src="navigation_bar.html" frameborder="0" width="100%" height="50"></iframe>
+<div id="nav-placeholder">
+</div>
+    <script>
+        $.get("navigation_bar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
 
   <!-- Body Content -->
   <p>

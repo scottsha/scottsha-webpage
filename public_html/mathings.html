@@ -53,10 +53,17 @@ function Randomlink()
 }
 //-->
 </script>
-</head>
-  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <iframe src="navigation_bar.html" frameborder="0" width="100%" height="50"></iframe>
+</head>
+<body>
+<div id="nav-placeholder">
+</div>
+    <script>
+        $.get("navigation_bar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
 
   <!-- Body Content -->
   <p>
