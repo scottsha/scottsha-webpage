@@ -6,18 +6,59 @@
   <link href="css/foundation.css" rel="stylesheet" />
   <script src="js/vendor/modernizr.js"></script>
   <link href="tenta.ico" rel="shortcut icon" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 </head>
 <body>
-<div id="nav-placeholder">
-</div>
-    <script>
-        $.get("navigation_bar.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
-
+  <!-- Navigation Bar! -->
+  <div class="sticky">
+    <nav class="top-bar" data-topbar="">
+      <ul class="title-area">
+        <li class="name">
+          <h1>
+            <a href="index.html">Shane Scott</a>
+          </h1>
+        </li>
+        <li class="toggle-topbar menu-icon">
+          <a href="#">
+            <span>Menu</span>
+          </a>
+        </li>
+      </ul>
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li>
+            <a href="cv_shane_scott.pdf">CV</a>
+          </li>
+        </ul>
+        <ul class="left">
+          <li>
+            <a href="https://gothamcitymusic.org/">GCMC</a>
+          </li>
+        </ul>
+        <ul class="left">
+          <li>
+            <a href="researchings.html">Papers</a>
+          </li>
+        </ul>
+        <ul class="left">
+          <li>
+            <a href="posters.html">Posters</a>
+          </li>
+        </ul>
+        <ul class="left">
+          <li>
+            <a href="teachings.html">Teaching</a>
+          </li>
+        </ul>
+        <ul class="left">
+          <li>
+            <a href="mathings.html">Math!</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+  <!-- End Navigation Bar! -->
   <!-- Body Content -->
   <p>
   <div class="row align-middle">

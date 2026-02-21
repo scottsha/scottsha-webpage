@@ -5,10 +5,12 @@
 
 from airium import Airium
 import pandas as pd
+import requests
 
 linklist = [
     "http://katlas.math.toronto.edu/wiki/Main_Page",
 ]
+
 
 def conjure_head(addin=False):
     a = Airium()
@@ -44,6 +46,9 @@ def wrap_nav_on_body(an_arium = Airium()):
                             a.a(href='cv_shane_scott.pdf', _t='CV')
                     with a.ul(klass='left'):
                         with a.li():
+                            a.a(href='https://gothamcitymusic.org/', _t='GCMC')
+                    with a.ul(klass='left'):
+                        with a.li():
                             a.a(href='researchings.html', _t='Papers')
                     with a.ul(klass='left'):
                         with a.li():
@@ -68,11 +73,33 @@ def conjure_bottom():
         a('$(document).foundation();')
     return a
 
+def check_website_status(url: str, timeout: float = 5.0) -> str:
+    print("query to ", url, "... ", end="")
+    try:
+        response = requests.head(url, allow_redirects=True, timeout=timeout)
+        if response.status_code == 200:
+            status = "up"
+        elif response.status_code == 404:
+            status = "not_found"
+        else:
+            status = f"error ({response.status_code})"
+
+    except requests.exceptions.RequestException:
+        status =  "down"
+    print(status)
+    return status
 
 class Genie:
     def __init__(self):
         self.tome = pd.read_csv("tome.csv")
         self.tome_of_exlinks = pd.read_csv("tome_of_links.csv")
+        self.check_for_active_links()
+
+    def check_for_active_links(self):
+        df = self.tome_of_exlinks
+        df["site_up"] = df["link"].apply(check_website_status)
+        print(df)
+        return df
 
     def conjure_sqbutton(self, row, col_size):
         a = Airium()
@@ -192,7 +219,8 @@ class Genie:
     def conjure_js_randomlink_code(self):
         aa = "\n<!--\nfunction Randomlink()\n{\n\turl = new Array;\n"
         for foo, rr in self.tome_of_exlinks.iterrows():
-            aa += "\turl["+str(foo)+"]=\""+rr["link"]+"\";\n"
+            if rr["site_up"] == "up":
+                aa += "\turl["+str(foo)+"]=\""+rr["link"]+"\";\n"
         aa += "\tChooselink = Math.round(Math.random() * (url.length + 1));\n\twindow.open(url[Chooselink], \'_blank\');\n}\n//-->"
         airo = Airium()
         with airo.script(language="Javascript"):
@@ -201,7 +229,7 @@ class Genie:
 
     def conjure_mathing_contents(self):
         gridwidth = 3
-        ds = self.tome_of_exlinks
+        ds = self.tome_of_exlinks[self.tome_of_exlinks["site_up"]=="up"]
         #
         a = Airium()
         # with a.div(klass='small-11 small-centered columns'):
@@ -247,15 +275,15 @@ class Genie:
 if __name__ == "__main__":
     genie = Genie()
     aa = genie.conjure_index_page()
-    with open("../index.html", "w") as f:
+    with open("../public_html/index.html", "w") as f:
         f.write(str(aa))
     bb = genie.conjure_papers_page()
-    with open("../researchings.html", "w") as f:
+    with open("../public_html/researchings.html", "w") as f:
         f.write(str(bb))
     bb = genie.conjure_posters_page()
-    with open("../posters.html", "w") as f:
+    with open("../public_html/posters.html", "w") as f:
         f.write(str(bb))
     mathpage = genie.conjure_math_page()
-    with open("../mathings.html", "w") as f:
+    with open("../public_html/mathings.html", "w") as f:
         f.write(str(mathpage))
 
