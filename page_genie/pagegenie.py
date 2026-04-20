@@ -43,7 +43,7 @@ def wrap_nav_on_body(an_arium = Airium()):
                     a('<!-- Left Nav Section -->')
                     with a.ul(klass='left'):
                         with a.li():
-                            a.a(href='cv_shane_scott.pdf', _t='CV')
+                            a.a(href='sscott_cv.pdf', _t='CV')
                     with a.ul(klass='left'):
                         with a.li():
                             a.a(href='https://gothamcitymusic.org/', _t='GCMC')
@@ -280,9 +280,9 @@ if __name__ == "__main__":
     bb = genie.conjure_papers_page()
     with open("../public_html/researchings.html", "w") as f:
         f.write(str(bb))
-    bb = genie.conjure_posters_page()
+    cc = genie.conjure_posters_page()
     with open("../public_html/posters.html", "w") as f:
-        f.write(str(bb))
+        f.write(str(cc))
     mathpage = genie.conjure_math_page()
     with open("../public_html/mathings.html", "w") as f:
         f.write(str(mathpage))
